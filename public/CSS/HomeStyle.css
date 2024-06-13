@@ -1,3 +1,4 @@
+/* 
 *
 {
     margin:0;
@@ -8,7 +9,6 @@ html,body
 {
     width:100%;
     height:100%;
-    /* background-color: skyblue; */
 }
 .main
 {
@@ -20,21 +20,48 @@ html,body
     height: 100vh;
     width: 100%;
 }
-.nav
+.page1 .nav
 {
-    height: 15vh;
+    height: 12vh;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
 }
-.logo
+.page1 .logo
 {
-    height: 2vmin;
-    width: 2vmin;
+    height: 4vmax;
+    width: 4.2vmax;
     background-color: #e6dbda;
     border-radius: 50%;
     font-family: Comfortaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.page1 .logo p
+{
+    font-size: 2vmax;
+    font-weight: 700;
+}
+.C
+{
+    color: #0f52ba;
+}
+.X
+{
+    color: #91c11b;
+}
+.page1 .nav .options
+{
+    height: 100%;
+    width:50%;
 }
 .page1 .content
 {
-    height: 85vh;
+    height: 87vh;
     width: 100%;
-}
+} 
+*/
