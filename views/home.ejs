@@ -92,6 +92,11 @@
             align-items: center;
             justify-content: center;
         }
+        .page1 .nav .options button a
+        {
+            text-decoration: none;
+            color: black;
+        }     
         .page1 .nav .options button:hover
         {
             background-color: rgba(172, 172, 172, 0.692);
@@ -110,10 +115,6 @@
             object-fit: contain;
             margin-right: 0.5vmax;
         }
-        /* .page1 .nav .options:nth-child(n)
-        {
-            border-left: 2px solid black;
-        } */
         .page1 .header
         {
             height: 89vh;
@@ -194,10 +195,10 @@
                     <p class="X">X</p>
                 </div>
                 <div class="options">
-                    <button><i class="ri-compass-discover-fill"></i>&nbsp;Careers</button>
-                    <button> <img src="https://cdn-icons-png.flaticon.com/512/11924/11924840.png" alt=""> Assessment</button>
-                    <button><i class="ri-login-box-line"></i>Login</button>
-                    <button><i class="ri-user-add-fill"></i>Register</button>
+                    <button><a href="/careers"><i class="ri-compass-discover-fill"></i>&nbsp;Careers</a></button>
+                    <button><a href="/assessment"><img src="https://cdn-icons-png.flaticon.com/512/11924/11924840.png" alt="">Assessment</a></button>
+                    <button><a href="/login"><i class="ri-login-box-line"></i>Login</a></button>
+                    <button><a href="/register"><i class="ri-user-add-fill"></i>Register</a></button>
                 </div>
             </div>
             <div class="header">
@@ -212,9 +213,13 @@
                 </div>
             </div>
         </div>
+        <!-- Search for Industries -->
         <div class="page2"></div>
+        
         <div class="page3"></div>
+
         <div class="page4"></div>
+        <!-- testimonials -->
         <div class="page5"></div>
         <div class="footer"></div>
     </div>
