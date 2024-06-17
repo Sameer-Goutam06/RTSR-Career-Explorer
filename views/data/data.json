@@ -560,5 +560,245 @@
         "csalary": 95000,
         "cgrowthrate": 8.0,
         "cindustry": ["BANKING", "INSURANCE", "INVESTMENT", "HEALTHCARE"]
+    },
+    {
+        "cname": "LAWYER",
+        "cdesc": "LAWYERS are legal professionals who provide counsel and representation to individuals, businesses, and organizations in legal matters. They advocate for clients in court proceedings, negotiate settlements, draft legal documents, and provide legal advice on a wide range of issues. Lawyers specialize in various areas of law such as criminal law, civil litigation, corporate law, family law, and intellectual property law. Their responsibilities include conducting legal research, preparing cases, advising clients on legal rights and obligations, and representing clients in trials and hearings. Lawyers must possess strong analytical and problem-solving skills, excellent communication and negotiation skills, and the ability to work under pressure. They must also adhere to ethical standards and maintain confidentiality. Lawyers work in law firms, government agencies, corporations, and as solo practitioners, often specializing in specific legal areas based on their interests and expertise.",
+        "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam, licensure to practice law, strong analytical and research skills, excellent oral and written communication skills, ethical and professional conduct",
+        "csalary": 120000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["LEGAL SERVICES"]
+    },
+    {
+        "cname": "CORPORATE COUNSEL",
+        "cdesc": "CORPORATE COUNSEL, also known as in-house counsel, are lawyers who work directly for corporations and provide legal advice and representation on corporate legal matters. They advise corporate executives and management on legal issues related to business operations, contracts, regulatory compliance, intellectual property, employment law, and mergers and acquisitions. Corporate counsel draft and review contracts and agreements, negotiate deals, and represent the corporation in legal disputes and regulatory matters. They must stay updated with changes in laws and regulations that affect the corporation's operations and provide proactive legal guidance to mitigate risks. Corporate counsel also collaborate with external law firms when specialized legal expertise is required. Strong analytical skills, business acumen, and the ability to work effectively as part of a team are essential for this role.",
+        "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam, licensure to practice law, experience in corporate law or relevant legal field, strong analytical and problem-solving skills, excellent communication and negotiation skills",
+        "csalary": 160000,
+        "cgrowthrate": 10.0,
+        "cindustry": ["LEGAL SERVICES", "CORPORATE"]
+    },
+    {
+        "cname": "LEGAL ADVISOR",
+        "cdesc": "LEGAL ADVISORS provide legal guidance and support to individuals, businesses, or organizations on specific legal matters or projects. They offer advice on legal rights, obligations, risks, and strategies to achieve desired outcomes. Legal advisors may specialize in areas such as employment law, real estate law, contract law, or intellectual property law, depending on their expertise and client needs. Their responsibilities include conducting legal research, drafting legal documents, negotiating agreements, and representing clients in legal proceedings. Legal advisors must have strong analytical skills, attention to detail, and the ability to interpret complex legal issues. They communicate legal concepts clearly to clients and stakeholders and ensure compliance with applicable laws and regulations. Legal advisors work in law firms, consulting firms, government agencies, and corporate legal departments, providing valuable legal counsel to support decision-making and mitigate legal risks.",
+        "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam (optional depending on jurisdiction), experience in relevant legal field, strong analytical and research skills, excellent oral and written communication skills",
+        "csalary": 130000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["LEGAL SERVICES"]
+    },
+    {
+        "cname": "JUDGE",
+        "cdesc": "JUDGES are legal professionals who preside over court proceedings, adjudicate legal disputes, and uphold the law. They interpret laws, rules, and regulations to ensure fair and impartial decisions in civil, criminal, and administrative cases. Judges listen to arguments from attorneys, examine evidence presented in court, and make rulings based on legal precedents and statutes. They oversee trials, hearings, and motions, maintain courtroom decorum, and ensure due process is followed. Judges also issue court orders, sentences, and judgments that uphold justice and protect the rights of individuals and entities involved in legal disputes. Judicial roles vary by jurisdiction and court level, ranging from local municipal courts to federal appellate courts. Judges must have extensive knowledge of the law, strong decision-making skills, impartiality, and integrity. They typically have legal experience as attorneys before being appointed or elected to the judiciary.",
+        "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, experience as a practicing attorney, appointment or election to judicial office, strong knowledge of legal principles and procedures, excellent decision-making and interpersonal skills",
+        "csalary": 150000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["LEGAL SERVICES", "JUDICIARY"]
+    },
+    {
+        "cname": "PARALEGAL",
+        "cdesc": "PARALEGALS play a vital role in the legal field by assisting lawyers with various tasks related to legal cases and proceedings. They perform legal research, draft legal documents such as contracts and briefs, organize and maintain files, and provide administrative support to attorneys. Paralegals work in law firms, corporate legal departments, government agencies, and nonprofit organizations, where they contribute to the efficient delivery of legal services. Their responsibilities also include interviewing clients, conducting case investigations, preparing trial exhibits, and assisting in courtroom proceedings. Paralegals must have strong organizational skills, attention to detail, and proficiency in legal research and writing. They often specialize in areas such as litigation, corporate law, real estate, or family law, depending on their interests and career goals. Continuing education and professional development are essential for paralegals to stay updated with changes in laws and legal procedures.",
+        "crequirements": "Associate's degree or Bachelor's degree in Paralegal Studies or related field, certification as a Certified Paralegal (CP) or similar credential, strong research and writing skills, proficiency in legal software and databases, knowledge of legal principles and procedures",
+        "csalary": 52000,
+        "cgrowthrate": 12.0,
+        "cindustry": ["LEGAL SERVICES"]
+    },
+    {
+        "cname": "LEGAL CONSULTANT",
+        "cdesc": "LEGAL CONSULTANTS provide expert advice and guidance on legal matters to individuals, businesses, and organizations. They offer strategic legal advice, analyze legal issues, and recommend courses of action to address clients' concerns or objectives. Legal consultants may specialize in various areas of law, including corporate law, employment law, intellectual property, or international law, depending on their expertise and client needs. They work independently as consultants or within legal consulting firms, providing services such as contract review, legal document preparation, dispute resolution, and regulatory compliance. Legal consultants must have strong analytical skills, excellent communication skills, and the ability to interpret complex legal issues for clients. They often work closely with lawyers, executives, and stakeholders to navigate legal challenges and achieve legal objectives effectively.",
+        "crequirements": "Juris Doctor (JD) degree or Bachelor's degree in Law, licensure to practice law (depending on jurisdiction), specialized knowledge in a specific area of law, strong analytical and problem-solving skills, excellent communication and negotiation skills",
+        "csalary": 95000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["LEGAL SERVICES"]
+    },
+    {
+        "cname": "INTELLECTUAL PROPERTY SPECIALIST",
+        "cdesc": "INTELLECTUAL PROPERTY (IP) SPECIALISTS are legal professionals who specialize in protecting and managing intellectual property rights, including patents, trademarks, copyrights, and trade secrets. They work with individuals, businesses, and organizations to secure IP rights, conduct IP audits, and enforce IP protections through legal means. Intellectual property specialists provide strategic advice on IP issues, review and draft IP-related agreements, and conduct searches to assess the availability and validity of IP rights. They collaborate with inventors, creators, and legal teams to develop IP strategies that align with business goals and protect valuable innovations and creative works. Intellectual property specialists must have a strong understanding of IP laws and regulations, excellent research and analytical skills, and the ability to communicate complex legal concepts clearly to clients and stakeholders.",
+        "crequirements": "Bachelor's degree in Law, Intellectual Property, or related field, licensure to practice law (optional depending on role), specialized knowledge in intellectual property law, strong research and analytical skills, proficiency in IP management software",
+        "csalary": 110000,
+        "cgrowthrate": 10.0,
+        "cindustry": ["LEGAL SERVICES", "TECHNOLOGY"]
+    },
+    {
+        "cname": "COMPLIANCE OFFICER",
+        "cdesc": "COMPLIANCE OFFICERS play a critical role in ensuring that organizations comply with regulatory requirements and internal policies. They develop and implement compliance programs to prevent and detect violations of legal guidelines and ethical standards. Compliance officers conduct audits and risk assessments, provide training on compliance issues, and investigate violations and complaints. They work closely with management, legal departments, and regulatory agencies to ensure adherence to laws and regulations governing their industry. Compliance officers must have strong analytical skills, attention to detail, and a deep understanding of regulatory frameworks. They often specialize in specific areas such as financial compliance, healthcare compliance, or environmental compliance, depending on their industry. Continuous education and staying updated with regulatory changes are essential for compliance officers to effectively perform their duties and mitigate compliance risks.",
+        "crequirements": "Bachelor's degree in Law, Business, Finance, or related field, certification such as Certified Compliance & Ethics Professional (CCEP), strong analytical and problem-solving skills, knowledge of regulatory requirements and compliance frameworks, excellent communication and interpersonal skills",
+        "csalary": 85000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["FINANCE", "LEGAL SERVICES", "CORPORATE COMPLIANCE"]
+    },
+    {
+        "cname": "ARBITRATOR",
+        "cdesc": "ARBITRATORS are impartial professionals who facilitate the resolution of disputes outside of courtrooms through arbitration. They serve as neutral mediators or decision-makers in legal, business, or personal conflicts, aiming to reach fair and binding agreements between parties. Arbitrators review evidence, hear arguments, and apply relevant laws or agreements to resolve disputes efficiently and confidentially. They may specialize in various areas, such as commercial arbitration, labor disputes, or international arbitration. Arbitrators may work independently or as part of arbitration organizations, legal firms, or alternative dispute resolution (ADR) centers. Strong analytical skills, legal knowledge, and the ability to remain impartial and fair are essential qualities for arbitrators. They must also possess excellent communication and negotiation skills to facilitate productive dialogue and reach mutually acceptable resolutions.",
+        "crequirements": "Bachelor's degree in Law, Business, or related field, specialized training in arbitration or alternative dispute resolution (ADR), experience in legal practice or dispute resolution, strong analytical and decision-making skills, excellent communication and negotiation skills",
+        "csalary": 78000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["LEGAL SERVICES", "CONSULTING", "ADR"]
+    },
+    {
+        "cname": "COURT REPORTER",
+        "cdesc": "COURT REPORTERS play a vital role in legal proceedings by creating verbatim transcripts of courtroom proceedings, depositions, and other legal events. They use stenography machines, voice recording equipment, or digital recording systems to accurately capture spoken words and gestures. Court reporters ensure the integrity and accuracy of transcripts by reviewing and editing recordings, correcting errors, and marking annotations for clarity. They may provide real-time transcription services during hearings or trials, enabling immediate access to transcripts for judges, attorneys, and parties involved in the case. Court reporters must maintain confidentiality and impartiality, adhere to legal procedures and deadlines, and possess strong attention to detail and typing proficiency. They work in courts, law firms, government agencies, and as freelance reporters, supporting legal professionals in delivering accurate and timely documentation of legal proceedings.",
+        "crequirements": "Postsecondary certificate or associate's degree in Court Reporting or related field, certification such as Certified Court Reporter (CCR) or Registered Professional Reporter (RPR), proficiency in stenography or voice recording technology, strong typing and editing skills, attention to detail and accuracy",
+        "csalary": 60000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["LEGAL SERVICES", "GOVERNMENT", "FREELANCE"]
+    },
+    {
+        "cname": "JOURNALIST",
+        "cdesc": "JOURNALISTS play a pivotal role in gathering, reporting, and analyzing news and information for various media outlets. They investigate stories, conduct interviews, and write articles or reports that inform the public about current events, issues, and trends. Journalists work in diverse fields such as print media, broadcast journalism, online news platforms, and investigative journalism. They adhere to ethical standards and strive for accuracy and objectivity in their reporting. Journalists may specialize in areas such as political journalism, investigative reporting, sports journalism, or feature writing. They must possess strong writing skills, research abilities, and the ability to work under tight deadlines. Journalists also need to adapt to new technologies and multimedia platforms as the field evolves, including social media and digital publishing tools.",
+        "crequirements": "Bachelor's degree in Journalism, Communication, or related field, strong writing and research skills, experience in reporting and news gathering, familiarity with media ethics and legal principles, proficiency in multimedia and digital publishing tools",
+        "csalary": 45000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["MEDIA"]
+    },
+    {
+        "cname": "FILM DIRECTOR",
+        "cdesc": "FILM DIRECTORS are creative professionals who oversee the artistic and technical aspects of filmmaking. They collaborate with writers, producers, and actors to bring a screenplay to life on screen. Film directors make creative decisions regarding casting, cinematography, sound design, and editing to achieve the desired artistic vision for a film. They work in various genres and formats, including feature films, documentaries, television series, and commercials. Film directors must possess strong leadership skills, vision, and the ability to communicate effectively with their team. They manage budgets and schedules, ensuring that productions stay on track and within financial constraints. Film directors often start their careers in entry-level roles in the film industry, such as assistant directing or film editing, before moving into directing. They need to stay updated with industry trends and technologies to create compelling and relevant films that resonate with audiences.",
+        "crequirements": "Bachelor's degree in Film, Cinematography, or related field, experience in film production and directing, strong creative vision and storytelling skills, proficiency in film editing software and production equipment",
+        "csalary": 80000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["ENTERTAINMENT", "FILM"]
+    },
+    {
+        "cname": "ACTOR/ACTRESS",
+        "cdesc": "ACTORS and ACTRESSES are performers who bring characters to life on stage, television, or film. They interpret scripts, portray emotions, and embody the personalities of fictional or historical figures. Actors may specialize in theater, film, television, or voice acting, depending on their training and interests. Their work involves auditioning for roles, rehearsing scenes, studying scripts, and collaborating with directors, producers, and other actors to create compelling performances. Actors often face intense competition for roles and may work irregular hours, including evenings, weekends, and holidays. Successful actors build versatile skills, adaptability, and emotional range to convincingly portray a wide range of characters. They may also engage in promotional activities, attend industry events, and maintain a public persona. Continued training and networking are crucial for actors to stay relevant and pursue career advancement in the entertainment industry.",
+        "crequirements": "Formal training in acting from a drama school, university program, or acting workshops, strong memorization and improvisation skills, emotional intelligence and ability to connect with characters, experience in live performances or film projects",
+        "csalary": 54000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["ENTERTAINMENT"]
+    },
+    {
+        "cname": "PRODUCER",
+        "cdesc": "PRODUCERS are key figures in the entertainment industry who oversee the creation and development of films, television shows, or theater productions. They manage budgets, coordinate production schedules, and collaborate with directors, writers, and crew members to bring creative visions to life. Producers play a pivotal role in securing funding, negotiating contracts, and managing logistics to ensure projects stay on schedule and within budget. They may specialize in different genres or formats, such as documentary films, scripted television series, or Broadway productions. Producers must have strong organizational skills, financial acumen, and leadership abilities to effectively manage teams and navigate the complexities of production. They often work long hours, including evenings and weekends, to oversee every aspect of a project from inception to completion. Successful producers build extensive networks and maintain relationships with industry professionals to secure future projects and advance their careers.",
+        "crequirements": "Bachelor's degree in Film Production, Media Studies, Business Administration, or related field, experience in film or television production, strong project management and budgeting skills, negotiation and communication skills",
+        "csalary": 78000,
+        "cgrowthrate": 10.0,
+        "cindustry": ["ENTERTAINMENT", "MEDIA"]
+    },
+    {
+        "cname": "SCREENWRITER",
+        "cdesc": "SCREENWRITERS are writers who create scripts for films, television shows, or web series. They develop compelling narratives, craft dialogue, and structure scenes to captivate audiences and convey stories visually. Screenwriters may work independently as freelance writers or as part of a creative team collaborating with directors, producers, and actors to bring scripts to life. They research topics, develop characters, and write drafts, often revising scripts based on feedback and production needs. Screenwriters must understand screenplay formatting, industry standards, and storytelling techniques to create scripts that resonate with audiences and meet the expectations of producers and directors. They may specialize in genres such as comedy, drama, science fiction, or horror, adapting their writing style to fit the tone and vision of each project. Screenwriters often face tight deadlines and must be adaptable to changes in storyline or character development during the production process.",
+        "crequirements": "Bachelor's degree in Film Studies, Creative Writing, English, or related field, portfolio of screenwriting samples or completed scripts, strong storytelling and character development skills, familiarity with screenplay formatting software",
+        "csalary": 62000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["ENTERTAINMENT", "MEDIA"]
+    },
+    {
+        "cname": "SOUND ENGINEER",
+        "cdesc": "SOUND ENGINEERS, also known as audio engineers or audio technicians, are specialists in recording, mixing, and manipulating sound for various media productions. They work in music studios, film sets, television studios, live concert venues, and radio stations to ensure high-quality audio recordings and productions. Sound engineers operate recording equipment, set up microphones and sound systems, adjust levels and effects, and troubleshoot technical issues during recording sessions or live events. They collaborate closely with musicians, producers, directors, and artists to achieve desired sound effects, clarity, and balance in recordings. Sound engineers must have a deep understanding of acoustics, audio equipment, and digital audio workstations (DAWs) to manipulate sound creatively and technically. They may specialize in specific areas such as sound design, dialogue editing, or live sound reinforcement, depending on their interests and career goals.",
+        "crequirements": "Bachelor's degree in Audio Engineering, Sound Production, Music Technology, or related field, proficiency with audio recording and editing software (e.g., Pro Tools, Logic Pro), strong technical and problem-solving skills, attention to detail and excellent auditory perception",
+        "csalary": 58000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["ENTERTAINMENT", "MEDIA", "MUSIC"]
+    },
+    {
+        "cname": "VIDEO EDITOR",
+        "cdesc": "VIDEO EDITORS play a crucial role in the production of video content for various media platforms. They are skilled in assembling raw footage into a cohesive narrative, applying video and sound effects, and ensuring the overall quality and consistency of the final product. Video editors work across different industries, including film and television production, advertising, social media, and corporate communications. They collaborate closely with producers, directors, and clients to understand project requirements, meet deadlines, and deliver engaging visual storytelling. Video editors use specialized software like Adobe Premiere Pro, Final Cut Pro, or DaVinci Resolve to edit videos effectively. They must have a keen eye for detail, creativity, and a solid understanding of visual storytelling techniques. Continuous learning and staying updated with industry trends and software advancements are essential for video editors.",
+        "crequirements": "Bachelor's degree in Film Studies, Media Production, or related field, proficiency in video editing software (e.g., Adobe Premiere Pro, Final Cut Pro), strong creative and technical skills in video editing and post-production, ability to work under pressure and meet tight deadlines, excellent communication and collaboration skills",
+        "csalary": 60000,
+        "cgrowthrate": 22.0,
+        "cindustry": ["MEDIA", "ENTERTAINMENT", "MARKETING"]
+    },
+    {
+        "cname": "SOCIAL MEDIA MANAGER",
+        "cdesc": "SOCIAL MEDIA MANAGERS are responsible for managing an organization's online presence and content across various social media platforms. They develop and implement social media strategies to increase brand awareness, engage audiences, and drive traffic to websites or products. Social media managers create and curate content, schedule posts, and analyze engagement metrics to optimize performance. They monitor trends in social media tools, applications, channels, design, and strategy and recommend new opportunities and best practices. Social media managers collaborate with marketing, sales, and product development teams to ensure consistent messaging and brand voice. They must have excellent communication skills, creativity, and a deep understanding of social media platforms' algorithms and analytics tools. Social media managers often work in industries such as advertising, public relations, digital marketing agencies, and corporate communications departments.",
+        "crequirements": "Bachelor's degree in Marketing, Communications, Public Relations, or related field, proven experience in social media management, familiarity with social media scheduling and analytics tools (e.g., Hootsuite, Buffer, Google Analytics), strong writing and editing skills, ability to interpret analytics and implement data-driven strategies",
+        "csalary": 70000,
+        "cgrowthrate": 24.0,
+        "cindustry": ["MARKETING", "ADVERTISING", "PUBLIC RELATIONS"]
+    },
+    {
+        "cname": "BROADCAST TECHNICIAN",
+        "cdesc": "BROADCAST TECHNICIANS operate and maintain equipment used to record and broadcast radio and television programs. They are responsible for setting up and operating audio and video equipment, such as cameras, microphones, and mixing boards, to ensure high-quality audio and video broadcasts. Broadcast technicians also monitor broadcasts to ensure they meet technical standards and troubleshoot any issues that arise during live broadcasts. They may work in television studios, radio stations, production companies, or live event venues. Broadcast technicians must have technical expertise in audiovisual equipment, strong problem-solving skills, and the ability to work under pressure in fast-paced environments. They collaborate closely with producers, directors, and on-air talent to deliver seamless broadcasts to audiences.",
+        "crequirements": "Associate's degree or technical certification in Broadcasting, Audiovisual Technology, or related field, hands-on experience with audio and video equipment, knowledge of broadcast operations and technical standards, ability to troubleshoot and resolve technical issues quickly, strong attention to detail and organizational skills",
+        "csalary": 50000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["MEDIA", "ENTERTAINMENT", "TELECOMMUNICATIONS"]
+    },
+    {
+        "cname": "EVENT PLANNER",
+        "cdesc": "EVENT PLANNERS are professionals who coordinate and manage all aspects of events, ranging from corporate meetings and conferences to weddings, parties, and festivals. They work closely with clients to understand their objectives, preferences, and budgetary constraints to plan and execute successful events. Event planners handle logistics, such as venue selection, catering, entertainment, transportation, and accommodations. They negotiate contracts with vendors, manage timelines and budgets, and ensure that all details are executed flawlessly. Event planners must have strong organizational skills, attention to detail, and the ability to multitask effectively under pressure. They must also possess excellent communication and interpersonal skills to build relationships with clients, vendors, and event attendees. Event planners work in event management companies, hotels, convention centers, and may specialize in specific types of events or industries.",
+        "crequirements": "Bachelor's degree in Hospitality Management, Event Planning, Marketing, or related field, proven experience in event planning or hospitality industry, strong organizational and project management skills, ability to manage budgets and negotiate contracts, excellent communication and interpersonal skills",
+        "csalary": 55000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["EVENT MANAGEMENT", "HOSPITALITY", "MARKETING"]
+    },
+    {
+        "cname": "SOLAR ENGINEER",
+        "cdesc": "SOLAR ENGINEERS are professionals who design, develop, and oversee the installation of solar energy systems. They play a critical role in advancing renewable energy technologies by harnessing solar power to generate electricity or provide heating for residential, commercial, and industrial applications. Solar engineers analyze site feasibility, conduct energy audits, and develop system specifications to optimize solar energy capture and utilization. They use computer-aided design (CAD) software to create system layouts and perform simulations to predict system performance. Solar engineers oversee the procurement of materials, coordinate installation activities, and ensure compliance with safety and regulatory standards. They may specialize in photovoltaic (PV) systems, concentrating solar power (CSP) systems, or solar thermal technologies. Strong technical skills, knowledge of electrical and mechanical systems, and a commitment to sustainability are essential for success in this field.",
+        "crequirements": "Bachelor's degree in Mechanical Engineering, Electrical Engineering, Renewable Energy, or related field, proficiency in CAD software and solar energy modeling tools, experience with solar energy system design and installation, knowledge of electrical codes and regulations, strong project management skills",
+        "csalary": 80000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["ENERGY", "ENGINEERING", "RENEWABLE ENERGY"]
+    },
+    {
+        "cname": "WIND ENERGY ENGINEER",
+        "cdesc": "WIND ENERGY ENGINEERS specialize in designing and optimizing wind power systems to generate electricity from wind energy. They contribute to the development and implementation of wind farms, ranging from small-scale turbines to large wind power plants. Wind energy engineers conduct feasibility studies, site assessments, and environmental impact assessments to identify suitable locations for wind energy projects. They design wind turbine components, such as rotor blades, towers, and foundations, using computer modeling and simulation tools. Wind energy engineers collaborate with interdisciplinary teams to ensure the efficient and reliable operation of wind energy systems. They monitor performance metrics, analyze data from wind turbines, and implement improvements to enhance energy production and efficiency. Wind energy engineers must stay updated with technological advancements, regulatory requirements, and industry standards in renewable energy.",
+        "crequirements": "Bachelor's degree in Mechanical Engineering, Electrical Engineering, Renewable Energy, or related field, proficiency in wind energy modeling software and CAD tools, experience with wind farm design and operation, knowledge of environmental regulations and permitting processes, strong analytical and problem-solving skills",
+        "csalary": 85000,
+        "cgrowthrate": 11.0,
+        "cindustry": ["ENERGY", "ENGINEERING", "RENEWABLE ENERGY"]
+    },
+    {
+        "cname": "ENERGY ANALYST",
+        "cdesc": "ENERGY ANALYSTS are professionals who analyze energy consumption patterns, evaluate energy efficiency measures, and forecast energy demand to optimize energy use and reduce costs. They work in various sectors, including utilities, government agencies, consulting firms, and energy-intensive industries. Energy analysts collect and analyze energy data, conduct energy audits, and identify opportunities for energy savings and efficiency improvements. They use statistical analysis and modeling techniques to assess energy performance and develop recommendations for energy management strategies. Energy analysts may specialize in specific energy sources, such as electricity, natural gas, or renewable energy. They collaborate with engineers, policymakers, and stakeholders to implement energy conservation measures and promote sustainable practices. Strong analytical skills, proficiency in energy modeling software, and knowledge of energy policies and regulations are essential for this role.",
+        "crequirements": "Bachelor's degree in Engineering, Environmental Science, Economics, or related field, proficiency in energy analysis software and statistical tools, experience with energy data analysis and modeling, knowledge of energy efficiency technologies and practices, strong communication and presentation skills",
+        "csalary": 75000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["ENERGY", "CONSULTING", "RENEWABLE ENERGY"]
+    },
+    {
+        "cname": "ENVIRONMENTAL SCIENTIST",
+        "cdesc": "ENVIRONMENTAL SCIENTISTS play a crucial role in studying the environment and developing solutions to environmental problems. They conduct research, collect data, and analyze environmental issues such as pollution, climate change, and habitat destruction. Environmental scientists work in various settings, including government agencies, consulting firms, research institutions, and nonprofit organizations. Their responsibilities include conducting field surveys, monitoring environmental indicators, and assessing the impact of human activities on ecosystems. They use scientific principles and techniques to develop strategies for environmental conservation, remediation, and sustainable practices. Environmental scientists often collaborate with policymakers, engineers, and community stakeholders to implement environmental policies and initiatives. Strong analytical skills, attention to detail, and a passion for environmental stewardship are essential qualities for this profession. Continuous learning and staying updated with advancements in environmental science and technology are important to address emerging environmental challenges.",
+        "crequirements": "Bachelor's degree in Environmental Science, Biology, Chemistry, or related field, strong analytical and research skills, proficiency in data collection and analysis methods, knowledge of environmental laws and regulations, effective communication and teamwork skills",
+        "csalary": 68000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "RESEARCH", "CONSULTING"]
+    },
+    {
+        "cname": "SUSTAINABILITY CONSULTANT",
+        "cdesc": "SUSTAINABILITY CONSULTANTS advise organizations and businesses on adopting sustainable practices that minimize environmental impact and promote social responsibility. They assess current operations, develop sustainability strategies, and implement initiatives to achieve environmental and economic goals. Sustainability consultants work across various industries, including manufacturing, construction, energy, and corporate sectors. Their responsibilities include conducting sustainability assessments, analyzing resource consumption, recommending efficiency improvements, and facilitating sustainability certifications. They collaborate with stakeholders, including executives, engineers, and policymakers, to integrate sustainability principles into business operations and corporate strategies. Sustainability consultants must possess strong problem-solving skills, knowledge of environmental science and policy, and expertise in sustainable development practices. They play a pivotal role in advancing corporate sustainability agendas and contributing to global efforts to address climate change and environmental degradation.",
+        "crequirements": "Bachelor's degree in Environmental Science, Sustainability, Business, or related field, professional certification such as LEED Accredited Professional (LEED AP), strong analytical and project management skills, knowledge of sustainable practices and regulations, effective communication and stakeholder engagement skills",
+        "csalary": 85000,
+        "cgrowthrate": 10.0,
+        "cindustry": ["ENVIRONMENTAL CONSULTING", "SUSTAINABILITY", "BUSINESS ADVISORY"]
+    },
+    {
+        "cname": "GEOLOGIST",
+        "cdesc": "GEOLOGISTS study the Earth's composition, structure, and processes to understand its history and predict natural events such as earthquakes, volcanic eruptions, and landslides. They conduct fieldwork, collect samples, and analyze geological data using laboratory techniques and computer models. Geologists work in various sectors, including energy exploration, mining, environmental consulting, and government agencies. Their responsibilities include mapping geological formations, assessing mineral resources, and evaluating geological hazards. Geologists often specialize in areas such as petroleum geology, hydrogeology, or environmental geology, depending on their industry focus. They collaborate with engineers, environmental scientists, and policymakers to address geological challenges and ensure sustainable resource management. Strong analytical skills, problem-solving abilities, and a deep understanding of Earth sciences are essential for geologists. Continuous learning and staying updated with technological advancements in geology are crucial to apply innovative approaches to geological research and exploration.",
+        "crequirements": "Bachelor's degree in Geology, Earth Sciences, or related field, fieldwork experience, proficiency in geological mapping and data analysis software, knowledge of geological processes and environmental regulations, effective communication and teamwork skills",
+        "csalary": 80000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["GEOLOGY", "ENERGY", "ENVIRONMENTAL CONSULTING"]
+    },
+    {
+        "cname": "HYDROLOGIST",
+        "cdesc": "HYDROLOGISTS are scientists who study the distribution, movement, and properties of water in the Earth's atmosphere, surface, and subsurface. They play a critical role in managing water resources, assessing water quality, and predicting floods and droughts. Hydrologists use field observations, remote sensing data, and mathematical models to analyze hydrological processes and make informed decisions about water management and conservation. They work in various sectors, including government agencies, consulting firms, research institutions, and environmental organizations. Their responsibilities include conducting field surveys, collecting and analyzing water samples, interpreting data, and preparing reports and recommendations for policymakers and stakeholders. Hydrologists must have strong analytical skills, proficiency in hydrological modeling software, and knowledge of environmental regulations and water management practices.",
+        "crequirements": "Bachelor's degree in Hydrology, Environmental Science, Geosciences, or related field, strong analytical and problem-solving skills, proficiency in GIS and hydrological modeling software, fieldwork experience in hydrological monitoring and data collection",
+        "csalary": 75000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "WATER MANAGEMENT"]
+    },
+    {
+        "cname": "CLIMATE CHANGE ANALYST",
+        "cdesc": "CLIMATE CHANGE ANALYSTS are professionals who study the effects of climate change on ecosystems, economies, and human societies. They analyze climate data, model future climate scenarios, and assess the impact of climate policies and mitigation strategies. Climate change analysts work in research institutions, government agencies, non-profit organizations, and consulting firms, collaborating with scientists, policymakers, and stakeholders to develop strategies for adapting to and mitigating climate change. Their responsibilities include collecting and analyzing climate data, conducting environmental impact assessments, developing climate models, and communicating findings to decision-makers and the public. Climate change analysts must have strong analytical skills, knowledge of climate science and environmental policy, and proficiency in statistical and modeling software.",
+        "crequirements": "Bachelor's or Master's degree in Climate Science, Environmental Science, Geography, or related field, strong analytical and research skills, proficiency in climate modeling and GIS software, knowledge of climate change impacts and adaptation strategies",
+        "csalary": 80000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "CLIMATE ANALYSIS"]
+    },
+    {
+        "cname": "GREEN BUILDING CONSULTANT",
+        "cdesc": "GREEN BUILDING CONSULTANTS specialize in sustainable building practices and green design principles to minimize environmental impact and maximize energy efficiency. They advise architects, developers, and building owners on incorporating eco-friendly materials, renewable energy systems, and efficient water management into construction and renovation projects. Green building consultants work in architecture firms, engineering companies, construction firms, and as independent consultants, guiding clients through green building certification processes such as LEED (Leadership in Energy and Environmental Design). Their responsibilities include conducting energy audits, recommending sustainable building materials and technologies, evaluating building performance, and promoting environmental stewardship. Green building consultants must have a strong understanding of sustainable building practices, knowledge of green building certification standards, and expertise in energy efficiency and environmental impact assessment.",
+        "crequirements": "Bachelor's degree in Architecture, Engineering, Environmental Science, or related field, certification such as LEED Accredited Professional (LEED AP), strong knowledge of sustainable building practices and green building standards, experience in energy auditing and environmental assessment",
+        "csalary": 90000,
+        "cgrowthrate": 10.0,
+        "cindustry": ["SUSTAINABILITY", "GREEN BUILDING", "CONSTRUCTION"]
+    },
+    {
+        "cname": "WASTE MANAGEMENT SPECIALIST",
+        "cdesc": "WASTE MANAGEMENT SPECIALISTS are professionals who develop and implement strategies for the collection, disposal, recycling, and treatment of waste materials. They work to minimize environmental impact, conserve resources, and ensure compliance with waste management regulations. Waste management specialists may work in municipal governments, environmental consulting firms, recycling companies, and industries that generate significant waste. Their responsibilities include conducting waste audits, designing waste reduction programs, coordinating recycling initiatives, and overseeing landfill operations. Waste management specialists must have strong project management skills, knowledge of waste disposal technologies, and expertise in environmental regulations and sustainability practices. They collaborate with stakeholders, including government agencies, businesses, and community groups, to promote waste reduction and environmental stewardship.",
+        "crequirements": "Bachelor's degree in Environmental Science, Engineering, or related field, knowledge of waste management regulations and practices, experience in waste auditing and recycling programs, strong analytical and problem-solving skills",
+        "csalary": 70000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "WASTE MANAGEMENT", "RECYCLING"]
     }
 ]
