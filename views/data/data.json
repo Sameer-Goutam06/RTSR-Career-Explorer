@@ -5,7 +5,7 @@
         "crequirements": "Bachelor's degree in Computer Science or related field, proficiency in programming languages (Java, Python, C++), strong problem-solving skills",
         "csalary": 95000,
         "cgrowthrate": 22.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "DATA SCIENTIST",
@@ -13,7 +13,7 @@
         "crequirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, or related field, proficiency in Python or R, experience with data analysis tools and techniques",
         "csalary": 120000,
         "cgrowthrate": 31.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "SYSTEMS ANALYST",
@@ -21,7 +21,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, strong analytical skills, understanding of software development lifecycle",
         "csalary": 85000,
         "cgrowthrate": 20.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "NETWORK ENGINEER",
@@ -29,7 +29,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, knowledge of network protocols and security measures, experience with network design and implementation",
         "csalary": 90000,
         "cgrowthrate": 5.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "CYBERSECURITY SPECIALIST",
@@ -37,7 +37,7 @@
         "crequirements": "Bachelor's degree in Cybersecurity, Information Technology, Computer Science, or related field, knowledge of cybersecurity tools and techniques, understanding of risk management and compliance",
         "csalary": 110000,
         "cgrowthrate": 33.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "WEB DEVELOPER",
@@ -45,7 +45,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Web Development, or related field, proficiency in HTML, CSS, JavaScript, experience with web frameworks (e.g., React, Angular)",
         "csalary": 80000,
         "cgrowthrate": 13.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "MOBILE APP DEVELOPER",
@@ -53,7 +53,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Mobile App Development, or related field, proficiency in Swift, Kotlin, Java, familiarity with mobile development frameworks (e.g., Flutter, React Native), strong problem-solving skills, attention to detail",
         "csalary": 95000,
         "cgrowthrate": 22.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "UI/UX DESIGNER",
@@ -61,7 +61,7 @@
         "crequirements": "Bachelor's degree in Graphic Design, Computer Science, or related field, proficiency in design software (e.g., Adobe XD, Sketch, Figma), understanding of UX principles and user-centered design, strong communication and collaboration skills",
         "csalary": 85000,
         "cgrowthrate": 15.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "CLOUD ARCHITECT",
@@ -69,7 +69,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, expertise in cloud platforms (e.g., AWS, Azure, Google Cloud), experience with cloud architecture design and implementation, strong analytical and problem-solving skills",
         "csalary": 130000,
         "cgrowthrate": 28.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "DEVOPS ENGINEER",
@@ -77,7 +77,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, experience with DevOps tools and methodologies (e.g., Docker, Kubernetes, CI/CD), knowledge of software development lifecycle and agile methodologies, strong problem-solving and communication skills",
         "csalary": 115000,
         "cgrowthrate": 27.0,
-        "cindustry": "IT"
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
     },
     {
         "cname": "DOCTOR",
@@ -159,5 +159,29 @@
         "csalary": 100000,
         "cgrowthrate": 32.0,
         "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+    },
+    {
+        "cname": "FINANCIAL ANALYST",
+        "cdesc": "FINANCIAL ANALYSTS play a crucial role in helping businesses and individuals make investment decisions. They analyze financial data, prepare reports, and develop financial models to guide investment decisions. Financial analysts work in a variety of settings, including banks, investment firms, insurance companies, and corporations. Their primary responsibility is to evaluate the performance of stocks, bonds, and other types of investments to provide recommendations to their clients or employers. They must stay current with financial news, trends, and economic data to provide accurate and insightful advice. Financial analysts use various tools and techniques, including statistical software and spreadsheets, to analyze financial data and predict future performance. They may specialize in areas such as equity analysis, fixed income analysis, or risk analysis. Effective communication skills are essential, as financial analysts often present their findings and recommendations to stakeholders, including executives, clients, and investors. Continuous professional development is important in this field, as analysts must stay updated with changing regulations, market conditions, and financial technologies.",
+        "crequirements": "Bachelor's degree in Finance, Economics, Accounting, or related field, strong analytical skills, proficiency in financial modeling and analysis, advanced knowledge of financial software and tools, excellent communication skills",
+        "csalary": 85000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["FINANCE", "BANKING", "ACCOUNTING"]
+    },
+    {
+        "cname": "CHARTERED ACCOUNTANT",
+        "cdesc": "CHARTERED ACCOUNTANTS are highly skilled professionals who provide financial advice, audit accounts, and offer trustworthy information about financial records. They ensure that financial statements are accurate and comply with laws and regulations. Chartered accountants work in various sectors, including public practice firms, industry and commerce, and the public sector. Their responsibilities include auditing financial statements, advising on tax planning and compliance, managing financial systems and budgets, conducting financial analysis and risk management, and providing strategic recommendations. Chartered accountants must possess strong analytical skills, attention to detail, and a thorough understanding of financial principles and legislation. They often work long hours, especially during tax season or year-end audits, and must adhere to strict ethical standards and professional conduct.",
+        "crequirements": "Bachelor's degree in Accounting, Finance, or related field, completion of a professional accounting qualification (such as ACCA, CPA, or CA), strong analytical and problem-solving skills, excellent knowledge of accounting principles and regulations, proficiency in accounting software",
+        "csalary": 95000,
+        "cgrowthrate": 4.0,
+        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING"]
+    },
+    {
+        "cname": "INVESTMENT BANKER",
+        "cdesc": "INVESTMENT BANKERS assist companies, governments, and other entities in raising capital by underwriting and issuing securities. They also provide advisory services for mergers and acquisitions (M&A) and other types of financial transactions. Investment bankers work in large financial institutions and investment banks, where they specialize in various industries or types of transactions. Their responsibilities include conducting market research, preparing financial documents, structuring deals, and negotiating terms with clients and investors. Investment bankers must possess strong analytical skills, the ability to work under pressure, and excellent communication and negotiation skills. They often work long hours and must stay current with market trends, economic conditions, and regulatory changes. The role requires a deep understanding of financial markets, corporate finance, and investment strategies.",
+        "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, strong analytical and quantitative skills, excellent communication and negotiation skills, proficiency in financial modeling and analysis, knowledge of financial markets and instruments",
+        "csalary": 120000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["FINANCE", "BANKING", "INVESTMENT"]
     }
 ]

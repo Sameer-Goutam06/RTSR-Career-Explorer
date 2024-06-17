@@ -55,8 +55,7 @@ const User=mongoose.model("User",userSchema);
 
 //creating model for career collection
 const Career=mongoose.model("Career",careerSchema);
-Career.insertMany(
-).then((res)=>
+Career.insertMany().then((res)=>
 {
     console.log("insertion successful");
 })
