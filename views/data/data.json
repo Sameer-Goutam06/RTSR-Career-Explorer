@@ -183,5 +183,37 @@
         "csalary": 120000,
         "cgrowthrate": 5.0,
         "cindustry": ["FINANCE", "BANKING", "INVESTMENT"]
-    }
+    },
+    {
+        "cname": "AUDITOR",
+        "cdesc": "AUDITORS are essential professionals who examine financial records and ensure accuracy, compliance with regulations, and the integrity of financial reporting. They play a critical role in maintaining the trustworthiness of financial information for businesses, investors, and regulatory bodies. Auditors can be internal, working within an organization to ensure internal controls and processes are effective, or external, working for public accounting firms to audit financial statements of various organizations. Their responsibilities include examining financial statements, evaluating internal controls, identifying areas of risk, and providing recommendations for improvement. Auditors must have a keen eye for detail, strong analytical skills, and a thorough understanding of accounting principles and regulations. They must also adhere to strict ethical standards and maintain objectivity and independence in their assessments. Continuous professional development is important in this field to stay updated with evolving regulations and auditing standards.",
+        "crequirements": "Bachelor's degree in Accounting, Finance, or related field, certification such as Certified Public Accountant (CPA) or Certified Internal Auditor (CIA), strong analytical and problem-solving skills, proficiency in auditing software and tools, excellent knowledge of auditing standards and regulations",
+        "csalary": 70000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING"]
+    },
+    {
+        "cname": "TAX CONSULTANT",
+        "cdesc": "TAX CONSULTANTS are experts in tax law and compliance who provide advisory services to individuals, businesses, and organizations to minimize tax liabilities and ensure adherence to tax regulations. They prepare and file tax returns, offer strategic tax planning advice, and represent clients in disputes with tax authorities. Tax consultants must stay updated with the latest tax laws, regulations, and rulings to provide accurate and effective advice. Their responsibilities include analyzing financial records, identifying tax-saving opportunities, preparing tax documentation, and advising clients on tax-efficient business structures. Strong analytical skills, attention to detail, and a thorough understanding of tax laws are essential for this role. Tax consultants work in public accounting firms, legal firms, corporate tax departments, and as independent advisors. They often work long hours, especially during tax filing seasons, and must maintain high ethical standards and confidentiality.",
+        "crequirements": "Bachelor's degree in Accounting, Finance, or related field, certification such as Certified Public Accountant (CPA) or Enrolled Agent (EA), strong analytical and problem-solving skills, excellent knowledge of tax laws and regulations, proficiency in tax preparation software",
+        "csalary": 80000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["FINANCE", "ACCOUNTING", "LEGAL SERVICES"]
+    },
+    {
+        "cname": "ACTUARY",
+        "cdesc": "ACTUARIES are professionals who analyze financial risks using mathematics, statistics, and financial theory to study uncertain future events, particularly in the insurance and pension industries. They develop models to predict the likelihood of various outcomes related to life expectancy, economic trends, and investment returns. Actuaries play a critical role in designing insurance policies, pension plans, and other financial strategies to minimize risk and ensure financial stability. Their responsibilities include collecting and analyzing data, developing risk models, advising on pricing and underwriting policies, and presenting findings to stakeholders. Actuaries must have strong analytical skills, attention to detail, and a deep understanding of financial and statistical concepts. They work in insurance companies, consulting firms, government agencies, and corporate finance departments. Continuous professional development and passing a series of rigorous exams are essential to becoming a fully qualified actuary.",
+        "crequirements": "Bachelor's degree in Actuarial Science, Mathematics, Statistics, or related field, professional certification such as Fellow of the Society of Actuaries (FSA) or Chartered Enterprise Risk Actuary (CERA), strong analytical and problem-solving skills, proficiency in statistical and financial modeling software, excellent knowledge of risk management principles",
+        "csalary": 120000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT"]
+    },
+    {
+        "cname": "INSURANCE UNDERWRITER",
+        "cdesc": "INSURANCE UNDERWRITERS are professionals who evaluate the risk of insuring a person or asset and determine the terms and pricing for insurance policies. They analyze various factors to assess the likelihood of claims and decide whether to provide insurance coverage and under what conditions. Insurance underwriters play a crucial role in maintaining the financial health of insurance companies by ensuring that policies are priced accurately to cover potential losses. Their responsibilities include reviewing applications, assessing risk factors, conducting background research, using underwriting software, and making recommendations on policy terms. Strong analytical skills, attention to detail, and knowledge of insurance principles are essential for this role. Insurance underwriters work in various sectors of the insurance industry, including health, life, property, and casualty insurance. They must stay updated with industry trends, regulations, and economic conditions that impact risk assessment.",
+        "crequirements": "Bachelor's degree in Finance, Business, or related field, certification such as Chartered Property Casualty Underwriter (CPCU), strong analytical and decision-making skills, proficiency in underwriting software, excellent knowledge of insurance principles and regulations",
+        "csalary": 75000,
+        "cgrowthrate": 4.0,
+        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT"]
+    }   
 ]
