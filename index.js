@@ -18,6 +18,50 @@ app.set("views",path.join(__dirname,"/views"));
 //to get the data from the post method
 app.use(express.urlencoded({extended:true}));
 
+//importing mongoose
+const mongoose = require('mongoose');
+main()
+    .then(() => {
+        console.log("connected to database");
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+async function main(){
+    await mongoose.connect('mongodb://127.0.0.1:27017/RTSR');
+}
+//creating schema for user collection
+const userSchema=new mongoose.Schema
+(
+    {
+        name:String,
+        email:String,
+        password:String
+    }
+);
+
+//creating schema for career collection
+const careerSchema=new mongoose.Schema({
+    cname:String,
+    cdesc:String,
+    crequirements:String,
+    csalary:Number,
+    cgrowthrate:Number,
+    cindustry:String
+});
+
+//creating model for user collection
+const User=mongoose.model("User",userSchema);
+
+//creating model for career collection
+const Career=mongoose.model("Career",careerSchema);
+Career.insertMany(
+).then((res)=>
+{
+    console.log("insertion successful");
+})
+.catch((err)=>console.log(err));
+//port:8080
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
 });
@@ -63,6 +107,6 @@ app.post("/register",(req,res)=>
     }
     else
     {
-        
+
     }
 });
