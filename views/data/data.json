@@ -126,5 +126,38 @@
         "csalary": 180000,
         "cgrowthrate": 3.0,
         "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+    },
+
+    {
+        "cname": "RADIOLOGIST",
+        "cdesc": "RADIOLOGISTS are medical doctors who specialize in diagnosing and treating diseases and injuries using medical imaging techniques such as X-rays, CT scans, MRI scans, and ultrasound. They play a critical role in healthcare by interpreting imaging studies to provide accurate diagnoses and guide patient care decisions. Radiologists collaborate closely with referring physicians and other healthcare professionals to evaluate imaging findings and recommend appropriate treatment plans. They must stay updated with advancements in imaging technology and medical research to ensure the highest standards of patient care. Radiologists work in hospitals, diagnostic imaging centers, and outpatient clinics, applying their expertise in diagnostic radiology or specializing in areas such as neuroradiology, musculoskeletal radiology, or interventional radiology.",
+        "crequirements": "Doctor of Medicine (MD) degree, completion of residency training in diagnostic radiology, board certification in radiology, specialized training in specific imaging modalities",
+        "csalary": 400000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+    },
+    {
+        "cname": "NUTRITIONIST",
+        "cdesc": "NUTRITIONISTS are healthcare professionals who specialize in nutrition science and dietary practices to promote health and well-being. They assess individuals' dietary needs and develop personalized nutrition plans to address specific health concerns or conditions. Nutritionists educate clients about the importance of balanced diets, nutrient-rich foods, and healthy eating habits. They may work in various settings, including hospitals, clinics, community health centers, and private practice, collaborating with healthcare teams to support patients' nutritional needs. Nutritionists stay updated with research findings and dietary guidelines to provide evidence-based recommendations that improve overall health outcomes. They may specialize in areas such as sports nutrition, pediatric nutrition, or clinical nutrition, depending on their interests and expertise.",
+        "crequirements": "Bachelor's or Master's degree in Nutrition, Dietetics, or related field, licensure or certification as a Registered Dietitian (RD), clinical experience and specialized knowledge of nutrition science",
+        "csalary": 65000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+    },
+    {
+        "cname": "MEDICAL RESEARCHER",
+        "cdesc": "MEDICAL RESEARCHERS are scientists who conduct studies and experiments to advance medical knowledge and develop treatments for diseases and health conditions. They design research protocols, collect and analyze data, and publish findings in scientific journals to contribute to the understanding of disease mechanisms and therapeutic interventions. Medical researchers collaborate with healthcare professionals, universities, pharmaceutical companies, and government agencies to conduct clinical trials and translational research. They may specialize in areas such as molecular biology, epidemiology, pharmacology, or genetics, depending on their research interests and expertise. Medical researchers play a crucial role in driving innovation and improving patient care through evidence-based medicine and cutting-edge research.",
+        "crequirements": "Doctoral degree (Ph.D.) in Medical Sciences, Biology, or related field, research experience in medical or biological sciences, strong analytical and research skills",
+        "csalary": 95000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+    },
+    {
+        "cname": "HOSPITAL ADMINISTRATOR",
+        "cdesc": "HOSPITAL ADMINISTRATORS oversee the daily operations and management of healthcare facilities, ensuring efficient delivery of patient care services. They develop and implement policies and procedures to optimize hospital operations, manage budgets and financial resources, and ensure compliance with healthcare regulations and standards. Hospital administrators collaborate with medical staff, department heads, and support services to coordinate patient care and administrative functions. They may specialize in areas such as healthcare finance, human resources management, or healthcare quality improvement, depending on their expertise and organizational needs. Hospital administrators play a critical role in maintaining hospital productivity, patient satisfaction, and overall organizational effectiveness.",
+        "crequirements": "Master's degree in Healthcare Administration, Business Administration, or related field, leadership experience in healthcare management, knowledge of healthcare regulations and financial management",
+        "csalary": 100000,
+        "cgrowthrate": 32.0,
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
     }
 ]
