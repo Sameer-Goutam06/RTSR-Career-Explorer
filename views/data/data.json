@@ -215,5 +215,142 @@
         "csalary": 75000,
         "cgrowthrate": 4.0,
         "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT"]
-    }   
+    },
+    {
+        "cname": "RISK MANAGER",
+        "cdesc": "RISK MANAGERS are financial professionals who identify, assess, and mitigate potential risks that could negatively impact an organization's finances, operations, or reputation. They play a crucial role in developing risk management strategies and policies to protect against financial losses and regulatory compliance issues. Risk managers analyze data and market trends to evaluate risks associated with investments, operations, and business decisions. They work closely with executives, department heads, and stakeholders to implement risk mitigation plans and monitor their effectiveness. Risk managers may specialize in various areas such as credit risk, market risk, operational risk, or enterprise risk management. Strong analytical skills, attention to detail, and the ability to communicate complex information effectively are essential for this role. They work in financial institutions, corporations, insurance companies, and consulting firms, contributing to the overall stability and resilience of organizations.",
+        "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Certified Risk Manager (CRM) or Financial Risk Manager (FRM), strong analytical and problem-solving skills, knowledge of risk management principles and methodologies, experience in financial analysis and modeling",
+        "csalary": 110000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["FINANCE", "BANKING", "INSURANCE"]
+    },
+    {
+        "cname": "FINANCIAL ADVISOR",
+        "cdesc": "FINANCIAL ADVISORS are professionals who provide personalized financial guidance to individuals, families, and businesses to help them achieve their financial goals. They assess clients' financial situations, including income, assets, investments, and liabilities, and develop customized financial plans. Financial advisors offer advice on investments, retirement planning, estate planning, tax strategies, and insurance coverage based on clients' objectives and risk tolerance. They monitor clients' financial progress, adjust plans as needed, and provide ongoing education and support. Financial advisors may specialize in areas such as wealth management, retirement planning, or investment advisory services. They work in financial advisory firms, banks, insurance companies, and as independent advisors. Strong interpersonal skills, trustworthiness, and a deep understanding of financial products and markets are essential for success in this role.",
+        "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Certified Financial Planner (CFP) or Chartered Financial Analyst (CFA), strong interpersonal and communication skills, knowledge of investment strategies and financial planning principles, experience in financial analysis and portfolio management",
+        "csalary": 90000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["FINANCE", "INVESTMENT", "FINANCIAL SERVICES"]
+    },
+    {
+        "cname": "EQUITY ANALYST",
+        "cdesc": "EQUITY ANALYSTS are financial professionals who analyze financial data and market trends to provide investment recommendations on publicly traded companies. They evaluate company financial statements, industry trends, economic data, and market conditions to assess the value and performance of stocks. Equity analysts conduct in-depth research and use financial models to forecast future earnings and estimate the fair value of stocks. They write research reports and make investment recommendations to portfolio managers, institutional investors, and clients. Equity analysts must have strong analytical skills, knowledge of financial markets and accounting principles, and the ability to interpret complex data. They work in investment banks, asset management firms, brokerage firms, and research organizations, contributing to investment decision-making processes.",
+        "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Chartered Financial Analyst (CFA), strong analytical and quantitative skills, proficiency in financial modeling and valuation techniques, knowledge of equity markets and investment analysis",
+        "csalary": 100000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["FINANCE", "INVESTMENT", "EQUITY RESEARCH"]
+    },
+    {
+        "cname": "CIVIL ENGINEER",
+        "cdesc": "CIVIL ENGINEERS are professionals who design, construct, and maintain infrastructure projects and systems, including roads, buildings, airports, tunnels, dams, bridges, and water supply and sewage systems. They play a critical role in the development and improvement of public and private infrastructure, ensuring that structures are safe, functional, and sustainable. Civil engineers use their expertise in engineering principles, construction methods, and project management to oversee and guide the development of these projects. Their responsibilities include conducting feasibility studies, preparing detailed design plans, estimating project costs, ensuring compliance with regulations and standards, and supervising construction activities. They often collaborate with other engineers, architects, urban planners, and government officials to deliver projects that meet the needs of the community. Civil engineers must have strong analytical and problem-solving skills, attention to detail, and the ability to work in a team environment. Continuous professional development is essential to stay updated with advancements in engineering technology and practices.",
+        "crequirements": "Bachelor's degree in Civil Engineering, Professional Engineer (PE) license, strong analytical and problem-solving skills, proficiency in engineering design software, knowledge of construction methods and regulations",
+        "csalary": 86000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["CONSTRUCTION", "ENGINEERING", "INFRASTRUCTURE"]
+    },
+    {
+        "cname": "MECHANICAL ENGINEER",
+        "cdesc": "MECHANICAL ENGINEERS are professionals who design, develop, and test mechanical devices and systems, such as engines, machines, and tools. They apply principles of mechanics, thermodynamics, and materials science to create efficient and reliable products and processes. Mechanical engineers work in a variety of industries, including automotive, aerospace, manufacturing, and energy. Their responsibilities include conducting research, developing prototypes, analyzing performance, and overseeing the manufacturing process. They use computer-aided design (CAD) software to create detailed models and simulations, ensuring that their designs meet specifications and industry standards. Mechanical engineers must have strong analytical and technical skills, creativity, and attention to detail. They often work in multidisciplinary teams, collaborating with other engineers, designers, and technicians to solve complex engineering problems and innovate new solutions. Continuous learning and professional development are important to keep up with advancements in technology and engineering practices.",
+        "crequirements": "Bachelor's degree in Mechanical Engineering, Professional Engineer (PE) license, strong analytical and technical skills, proficiency in CAD software, knowledge of materials science and manufacturing processes",
+        "csalary": 87000,
+        "cgrowthrate": 4.0,
+        "cindustry": ["MANUFACTURING", "AUTOMOTIVE", "AEROSPACE", "ENGINEERING"]
+    },
+    {
+        "cname": "ELECTRICAL ENGINEER",
+        "cdesc": "ELECTRICAL ENGINEERS are professionals who design, develop, and maintain electrical systems and equipment, including power generation, transmission, and distribution systems, as well as electrical components for various devices and machinery. They apply principles of electrical theory, electronics, and electromagnetism to ensure that electrical systems are efficient, safe, and reliable. Electrical engineers work in a variety of industries, including power generation, telecommunications, manufacturing, and electronics. Their responsibilities include designing electrical circuits, testing electrical systems, troubleshooting issues, and ensuring compliance with safety and quality standards. They use specialized software and tools to create detailed electrical schematics and perform simulations. Electrical engineers must have strong analytical and problem-solving skills, attention to detail, and the ability to work in a team environment. Continuous professional development is important to stay updated with advancements in electrical technology and industry practices.",
+        "crequirements": "Bachelor's degree in Electrical Engineering, Professional Engineer (PE) license, strong analytical and problem-solving skills, proficiency in electrical design software, knowledge of electrical systems and standards",
+        "csalary": 90000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["POWER GENERATION", "TELECOMMUNICATIONS", "MANUFACTURING", "ENGINEERING"]
+    },
+    {
+        "cname": "CHEMICAL ENGINEER",
+        "cdesc": "CHEMICAL ENGINEERS apply principles of chemistry, biology, physics, and mathematics to solve problems involving the production or use of chemicals, fuel, drugs, food, and many other products. They design processes and equipment for large-scale manufacturing, plan and test production methods, and oversee facility operations. Chemical engineers also work on developing new chemical products and processes, ensuring that they are safe, efficient, and environmentally friendly. They use computer-aided design (CAD) software to create process flow diagrams, conduct simulations, and optimize production processes. Chemical engineers work in various industries, including pharmaceuticals, energy, food and beverage, and materials manufacturing. They collaborate with other engineers, scientists, and production staff to develop innovative solutions to complex problems. A strong foundation in chemistry, physics, and mathematics is essential, as are analytical thinking, problem-solving skills, and creativity. Chemical engineers must also stay informed about industry trends, technological advancements, and regulatory changes to maintain the highest standards of safety and efficiency.",
+        "crequirements": "Bachelor's degree in Chemical Engineering, Professional Engineer (PE) license, proficiency in CAD software and process simulation tools, strong analytical and problem-solving skills, knowledge of chemical safety standards and regulations",
+        "csalary": 95000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["MANUFACTURING", "ENGINEERING", "PHARMACEUTICALS"]
+    },
+    {
+        "cname": "AEROSPACE ENGINEER",
+        "cdesc": "AEROSPACE ENGINEERS design and develop aircraft, spacecraft, satellites, and missiles. They apply principles of physics, mathematics, and aerodynamics to create and test prototypes, analyze test data, and refine designs. Aerospace engineers may specialize in aeronautical engineering, focusing on aircraft, or astronautical engineering, focusing on spacecraft and satellites. They use computer-aided design (CAD) software, wind tunnels, and other tools to simulate flight conditions and ensure that their designs meet safety, performance, and efficiency standards. Aerospace engineers work in aerospace companies, government agencies, and research institutions. They collaborate with teams of engineers, technicians, and scientists to solve technical challenges and innovate new technologies for aviation and space exploration. Strong analytical skills, attention to detail, and knowledge of aerospace regulations and standards are essential for success in this field. Aerospace engineers must stay updated with advances in technology and industry trends to remain competitive in a rapidly evolving field.",
+        "crequirements": "Bachelor's degree in Aerospace Engineering or related field, Professional Engineer (PE) license, proficiency in CAD software and aerospace design tools, strong analytical and problem-solving skills, knowledge of aerodynamics and aerospace systems",
+        "csalary": 100000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["AEROSPACE", "ENGINEERING", "DEFENSE"]
+    },
+    {
+        "cname": "BIOMEDICAL ENGINEER",
+        "cdesc": "BIOMEDICAL ENGINEERS combine engineering principles with medical and biological sciences to design and develop medical devices, equipment, and procedures. They work to improve healthcare diagnostics, treatment, and patient care. Biomedical engineers may develop artificial organs, prosthetic devices, diagnostic equipment, or medical imaging systems. They collaborate with medical professionals, scientists, and manufacturers to research and innovate new technologies that advance healthcare outcomes. Biomedical engineers use computer modeling and simulation tools to design prototypes and analyze data, ensuring that their designs meet safety, efficacy, and regulatory standards. They work in hospitals, research laboratories, medical device companies, and government agencies. Biomedical engineers must have strong problem-solving skills, attention to detail, and knowledge of medical regulations and standards. They must also stay informed about advances in medical technology and collaborate effectively with interdisciplinary teams to address complex healthcare challenges.",
+        "crequirements": "Bachelor's degree in Biomedical Engineering or related field, Professional Engineer (PE) license or relevant certification, proficiency in CAD software and biomedical design tools, strong analytical and problem-solving skills, knowledge of medical device regulations",
+        "csalary": 90000,
+        "cgrowthrate": 7.0,
+        "cindustry": ["BIOMEDICAL", "HEALTHCARE", "MEDICAL DEVICE"]
+    },
+    {
+        "cname": "ENVIRONMENTAL ENGINEER",
+        "cdesc": "ENVIRONMENTAL ENGINEERS apply engineering principles to protect and improve the environment. They work on projects to prevent, control, and remediate environmental hazards such as pollution, waste disposal, and resource depletion. Environmental engineers may design systems for water and air pollution control, develop strategies for sustainable practices, and assess environmental impact reports for construction projects. They collaborate with scientists, policymakers, and community stakeholders to develop and implement solutions that minimize environmental impact and promote sustainability. Environmental engineers use computer modeling, simulation tools, and geographic information systems (GIS) to analyze data and develop effective environmental management plans. They work in consulting firms, government agencies, industry, and nonprofit organizations. Strong analytical skills, attention to detail, and knowledge of environmental regulations and policies are essential for success in this field. Environmental engineers must stay informed about advances in environmental technology and regulatory changes to address emerging environmental challenges.",
+        "crequirements": "Bachelor's degree in Environmental Engineering, Civil Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in CAD software and environmental modeling tools, strong analytical and problem-solving skills, knowledge of environmental regulations",
+        "csalary": 85000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["ENVIRONMENTAL", "ENGINEERING", "CONSULTING"]
+    },
+    {
+        "cname": "MATERIALS ENGINEER",
+        "cdesc": "MATERIALS ENGINEERS study the properties and behavior of different materials, such as metals, ceramics, polymers, and composites, to develop new materials and improve existing ones. They apply principles of chemistry, physics, and engineering to understand how materials can be used in various applications, including manufacturing processes, product development, and industrial production. Materials engineers conduct research to analyze the structure and composition of materials, evaluate their mechanical, thermal, and chemical properties, and develop ways to enhance their performance and durability. They use computer modeling and simulation tools to predict material behavior and optimize manufacturing processes. Materials engineers work in industries such as aerospace, automotive, electronics, and healthcare, collaborating with scientists, researchers, and production teams to innovate new materials for specific applications. Strong analytical skills, attention to detail, and knowledge of material science principles are essential for success in this field. Materials engineers must stay informed about advances in materials technology and industry trends to develop competitive solutions.",
+        "crequirements": "Bachelor's degree in Materials Science, Materials Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in material testing and characterization techniques, strong analytical and problem-solving skills, knowledge of manufacturing processes",
+        "csalary": 90000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["MANUFACTURING", "MATERIALS", "RESEARCH"]
+    },
+    {
+        "cname": "PETROLEUM ENGINEER",
+        "cdesc": "PETROLEUM ENGINEERS design and develop methods for extracting oil and gas from deposits below the Earth’s surface. They work to maximize the recovery of hydrocarbons by creating and implementing drilling plans, well completions, and production techniques. Petroleum engineers analyze geological data to understand the characteristics of oil and gas reservoirs, evaluate drilling and production costs, and assess environmental impact. They use advanced computer modeling and simulation tools to optimize drilling processes, predict reservoir behavior, and ensure efficient extraction of resources. Petroleum engineers work closely with geologists, drilling engineers, and production teams to monitor well performance, troubleshoot operational issues, and implement safety and environmental regulations. They work primarily in the oil and gas industry, including exploration and production companies, consulting firms, and government agencies. Strong analytical skills, problem-solving ability, and knowledge of petroleum engineering principles are crucial for success in this field. Petroleum engineers must stay updated with advancements in drilling technology, reservoir management, and environmental regulations.",
+        "crequirements": "Bachelor's degree in Petroleum Engineering, Chemical Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in drilling and reservoir simulation software, strong analytical and problem-solving skills, knowledge of oil and gas extraction techniques",
+        "csalary": 120000,
+        "cgrowthrate": 5.0,
+        "cindustry": ["OIL AND GAS", "ENERGY", "ENGINEERING"]
+    },
+    {
+        "cname": "ROBOTICS ENGINEER",
+        "cdesc": "ROBOTICS ENGINEERS design, build, and program robotic systems used in various industries, including manufacturing, healthcare, defense, and exploration. They integrate mechanical, electrical, and computer engineering principles to create robots that perform complex tasks autonomously or with human supervision. Robotics engineers develop robotic hardware such as manipulators, sensors, and actuators, as well as software for control systems and artificial intelligence algorithms. They use CAD software to design robot components, perform simulations to test robot functionality, and troubleshoot technical issues during development and implementation. Robotics engineers collaborate with multidisciplinary teams of engineers, technicians, and researchers to innovate new robotic technologies and improve existing systems. They must stay updated with advancements in robotics, artificial intelligence, and automation to design robots that meet performance, safety, and regulatory standards. Strong problem-solving skills, creativity, and a passion for technology are essential for success in this dynamic field.",
+        "crequirements": "Bachelor's degree in Robotics Engineering, Mechanical Engineering, Electrical Engineering, or related field, proficiency in CAD software and robotics programming languages (e.g., C++, Python), strong analytical and problem-solving skills, knowledge of robotic systems and automation technologies",
+        "csalary": 110000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["MANUFACTURING", "TECHNOLOGY", "RESEARCH"]
+    },
+
+    {
+        "cname": "TEACHER",
+        "cdesc": "TEACHERS are educators who play a vital role in shaping the academic, social, and personal development of students. They work in schools, colleges, and other educational settings, teaching a variety of subjects to students of different ages and abilities. Teachers create lesson plans, deliver lectures and presentations, assess student progress, and provide constructive feedback. They use teaching aids and technology to enhance learning experiences and promote student engagement. Teachers also collaborate with parents, other teachers, and school administrators to support students' overall development. Effective communication skills, patience, adaptability, and a passion for teaching are essential qualities for teachers. They must stay updated with educational trends, curriculum changes, and teaching methodologies to provide quality education and meet the diverse needs of students.",
+        "crequirements": "Bachelor's degree in Education, Teaching Credential or Certification (depending on location), subject-specific expertise, classroom management skills, effective communication and interpersonal skills",
+        "csalary": 60000,
+        "cgrowthrate": 4.0,
+        "cindustry": ["EDUCATION"]
+    },
+    {
+        "cname": "PROFESSOR",
+        "cdesc": "PROFESSORS are educators who teach and conduct research in colleges, universities, and other higher education institutions. They specialize in specific academic disciplines and deliver lectures, seminars, and workshops to undergraduate and graduate students. Professors conduct original research, publish scholarly articles, and contribute to academic conferences to advance knowledge in their fields. They mentor and advise students, supervise graduate research projects, and serve on academic committees. Professors may also participate in community outreach, professional development activities, and institutional governance. They must possess advanced knowledge in their subject area, critical thinking skills, and a commitment to academic excellence. Professors play a significant role in preparing students for careers and contributing to the academic community through teaching and research.",
+        "crequirements": "Doctoral degree (Ph.D.) in the relevant field, significant research and teaching experience, publications in peer-reviewed journals, commitment to continuous learning and professional development",
+        "csalary": 85000,
+        "cgrowthrate": 9.0,
+        "cindustry": ["EDUCATION", "RESEARCH"]
+    },
+    {
+        "cname": "SCHOOL PRINCIPAL",
+        "cdesc": "SCHOOL PRINCIPALS are educational leaders who oversee the daily operations and management of K-12 schools. They provide instructional leadership, supervise teaching staff, and ensure that educational standards are met. School principals develop school policies, manage budgets, and collaborate with teachers, parents, and community stakeholders to create a positive learning environment. They handle disciplinary issues, address parent concerns, and promote school-wide initiatives to improve student outcomes. School principals must have strong leadership skills, effective communication abilities, and a deep understanding of educational policies and practices. They often work long hours and must balance administrative duties with student support and community engagement. School principals play a crucial role in shaping school culture, fostering student success, and preparing students for future academic and personal achievements.",
+        "crequirements": "Master's degree in Education Administration or related field, teaching experience, principal certification or licensure (depending on location), leadership and management skills, knowledge of educational laws and regulations",
+        "csalary": 90000,
+        "cgrowthrate": 8.0,
+        "cindustry": ["EDUCATION", "ADMINISTRATION"]
+    },
+    {
+        "cname": "EDUCATION CONSULTANT",
+        "cdesc": "EDUCATION CONSULTANTS provide expertise and guidance to educational institutions, government agencies, and private organizations to improve educational programs, policies, and practices. They analyze educational data, assess curriculum effectiveness, and recommend strategies for enhancing teaching and learning outcomes. Education consultants may specialize in areas such as curriculum development, assessment and evaluation, teacher training, educational technology, or special education. They collaborate with educators, administrators, and policymakers to implement evidence-based practices and initiatives that promote educational excellence and equity. Education consultants may work independently as freelancers or as part of consulting firms, educational nonprofits, or government agencies. Strong analytical skills, knowledge of educational theories and practices, and effective communication skills are essential for this role.",
+        "crequirements": "Master's degree in Education, Educational Leadership, or related field, expertise in a specific area of education, consulting experience, strong analytical and problem-solving skills, proficiency in educational assessment tools and techniques",
+        "csalary": 80000,
+        "cgrowthrate": 6.0,
+        "cindustry": ["EDUCATION", "CONSULTING"]
+    }
 ]
