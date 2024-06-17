@@ -47,19 +47,12 @@ const careerSchema=new mongoose.Schema({
     crequirements:String,
     csalary:Number,
     cgrowthrate:Number,
-    cindustry:String
+    cindustry:Array
 });
 
 //creating model for user collection
 const User=mongoose.model("User",userSchema);
 
-//creating model for career collection
-const Career=mongoose.model("Career",careerSchema);
-Career.insertMany().then((res)=>
-{
-    console.log("insertion successful");
-})
-.catch((err)=>console.log(err));
 //port:8080
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
@@ -89,7 +82,21 @@ app.get("/login",(req,res)=>{
 //Login Route post request to get data and check if user exists
 app.post("/login",(req,res)=>
 {
-    console.log(req.body);
+    let username,password=req.body;
+    console.log(username,password);
+    let check=User.findOne({cname:username})
+    .then((res)=>
+    {
+        if (res.password!==password)
+        {
+            res.render("error.ejs",{data:"Passwords doesnt match"});
+        }
+        else
+        {
+            res.redirect("home.ejs",{state:"unlogged"});
+        }
+    })
+    .catch((err)=>{res.render("error.ejs",{data:"User doesn't exist"})});
 });
 
 //registration route
