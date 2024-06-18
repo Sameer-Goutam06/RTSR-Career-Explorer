@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Grid Layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .header {
+      width: 100%;
+      height: 12vh;
+      background-color: #0f52ba;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-family: 'Raleway', sans-serif;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card-title {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #0f52ba;
+    }
+    .card-desc {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Sectors & Industries
+  </div>
+  <div class="container">
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">IT, ICT, Tech Industry, Software Development</h2>
+        <p class="card-desc">The IT, ICT, and Tech industries encompass the development, management, and communication of technology and information, with software development focusing on creating applications and systems to enhance productivity and solve problems.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Health Care, Medical Services</h2>
+        <p class="card-desc">Healthcare, medical services, and medicine encompass prevention, diagnosis, and treatment of diseases, providing clinical care, diagnostics, and pharmaceutical solutions to enhance and maintain health and well-being.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Finance, Banking, Investment, Accounting, Risk Management</h2>
+        <p class="card-desc">Finance, banking, and accounting involve managing money, investments, risk management, and financial records to support financial growth, stability, and regulatory compliance for individuals and businesses.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Engineering, Automotive, Infrastructure, Robotics, Construction</h2>
+        <p class="card-desc">Engineering integrates scientific principles to design and innovate solutions across automotive, infrastructure, robotics, and construction sectors, shaping modern advancements and infrastructure critical for societal development and technological progress.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Education, Research, Administration, Consulting</h2>
+        <p class="card-desc">Education, research, administration, and consulting drive knowledge acquisition, innovation, and organizational efficiency. They foster learning, advance understanding through inquiry, manage operations, and provide expert guidance to enhance performance across diverse sectors.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Digital Marketing, Sales, PR, Media Industry</h2>
+        <p class="card-desc">The marketing and advertising, digital marketing and e-commerce, sales and retail, and public relations and media sectors drive business growth through strategic marketing, digital engagement, sales management, and media influence.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Technology, Consulting, Manufacturing, Healthcare</h2>
+        <p class="card-desc">These industries encompass technology, manufacturing, finance, and healthcare, driving innovation, efficiency, financial stability, and healthcare delivery through roles in IT, operations, consulting, finance, and healthcare management.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Legal , Judiciary, Public Sector, Government</h2>
+        <p class="card-desc">Legal services span sectors including corporate governance, dispute resolution, public sector governance, and compliance, vital for legal representation, regulatory adherence, dispute resolution, and policy enforcement across industries.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Arts, Media, Entertainment</h2>
+        <p class="card-desc">Media and entertainment, audiovisual production, digital marketing, and event management sectors drive content creation, communication strategies, multimedia production, and event orchestration, influencing cultural engagement and audience interaction globally.</p>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='https://example.com'">
+      <img src="https://via.placeholder.com/300x200" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Sustainability, Conservation, Geology & Hydrology, Infrastructure</h2>
+        <p class="card-desc">Renewable energy and sustainability, environmental science and conservation, geology and hydrology, and green building and infrastructure focus on sustainable practices, environmental preservation, and resource management for a resilient future.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

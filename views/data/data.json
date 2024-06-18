@@ -5,7 +5,7 @@
         "crequirements": "Bachelor's degree in Computer Science or related field, proficiency in programming languages (Java, Python, C++), strong problem-solving skills",
         "csalary": 95000,
         "cgrowthrate": 22.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "DATA SCIENTIST",
@@ -13,7 +13,7 @@
         "crequirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, or related field, proficiency in Python or R, experience with data analysis tools and techniques",
         "csalary": 120000,
         "cgrowthrate": 31.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "SYSTEMS ANALYST",
@@ -21,7 +21,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, strong analytical skills, understanding of software development lifecycle",
         "csalary": 85000,
         "cgrowthrate": 20.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "NETWORK ENGINEER",
@@ -29,7 +29,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, knowledge of network protocols and security measures, experience with network design and implementation",
         "csalary": 90000,
         "cgrowthrate": 5.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "CYBERSECURITY SPECIALIST",
@@ -37,7 +37,7 @@
         "crequirements": "Bachelor's degree in Cybersecurity, Information Technology, Computer Science, or related field, knowledge of cybersecurity tools and techniques, understanding of risk management and compliance",
         "csalary": 110000,
         "cgrowthrate": 33.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "WEB DEVELOPER",
@@ -45,7 +45,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Web Development, or related field, proficiency in HTML, CSS, JavaScript, experience with web frameworks (e.g., React, Angular)",
         "csalary": 80000,
         "cgrowthrate": 13.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "MOBILE APP DEVELOPER",
@@ -53,7 +53,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Mobile App Development, or related field, proficiency in Swift, Kotlin, Java, familiarity with mobile development frameworks (e.g., Flutter, React Native), strong problem-solving skills, attention to detail",
         "csalary": 95000,
         "cgrowthrate": 22.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "UI/UX DESIGNER",
@@ -61,7 +61,7 @@
         "crequirements": "Bachelor's degree in Graphic Design, Computer Science, or related field, proficiency in design software (e.g., Adobe XD, Sketch, Figma), understanding of UX principles and user-centered design, strong communication and collaboration skills",
         "csalary": 85000,
         "cgrowthrate": 15.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "CLOUD ARCHITECT",
@@ -69,7 +69,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, expertise in cloud platforms (e.g., AWS, Azure, Google Cloud), experience with cloud architecture design and implementation, strong analytical and problem-solving skills",
         "csalary": 130000,
         "cgrowthrate": 28.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "DEVOPS ENGINEER",
@@ -77,7 +77,7 @@
         "crequirements": "Bachelor's degree in Computer Science, Information Technology, or related field, experience with DevOps tools and methodologies (e.g., Docker, Kubernetes, CI/CD), knowledge of software development lifecycle and agile methodologies, strong problem-solving and communication skills",
         "csalary": 115000,
         "cgrowthrate": 27.0,
-        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development"]
+        "cindustry": ["IT", "ICT", "Tech Industry", "Software Development", "A"]
     },
     {
         "cname": "DOCTOR",
@@ -85,7 +85,7 @@
         "crequirements": "Medical degree (MD or DO), completion of residency program, licensure, specialized training in chosen specialty",
         "csalary": 200000,
         "cgrowthrate": 7.0,
-        "cindustry": ["Healthcare", "Medical Services", "Medicine"]
+        "cindustry": ["Healthcare", "Medical Services", "Medicine","B"]
     },
     {
         "cname": "NURSE",
@@ -93,7 +93,7 @@
         "crequirements": "Bachelor's degree in Nursing (BSN) or Associate's degree in Nursing (ADN), licensure as a Registered Nurse (RN), clinical experience and specialized training",
         "csalary": 75000,
         "cgrowthrate": 12.0,
-        "cindustry": ["Healthcare", "Medical Services", "Medicine"]
+        "cindustry": ["Healthcare", "Medical Services", "Medicine","B"]
     },
     {
         "cname": "PHARMACIST",
@@ -101,7 +101,7 @@
         "crequirements": "Doctor of Pharmacy (Pharm.D.) degree, licensure as a pharmacist, clinical experience and knowledge of pharmaceuticals and drug interactions",
         "csalary": 115000,
         "cgrowthrate": 6.0,
-        "cindustry": ["Healthcare", "Medical Services", "Medicine"]
+        "cindustry": ["Healthcare", "Medical Services", "Medicine","B"]
     },
     {
         "cname": "MEDICAL LAB TECHNICIAN",
@@ -109,7 +109,7 @@
         "crequirements": "Associate's degree in Medical Laboratory Technology (MLT) or related field, certification or licensure as a Medical Laboratory Technician (MLT), hands-on experience in laboratory procedures and equipment operation",
         "csalary": 55000,
         "cgrowthrate": 7.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "PHYSICAL THERAPIST",
@@ -117,7 +117,7 @@
         "crequirements": "Doctoral or Master's degree in Physical Therapy (DPT or MPT), licensure as a Physical Therapist (PT), clinical experience and specialized knowledge of musculoskeletal and neurological conditions",
         "csalary": 90000,
         "cgrowthrate": 18.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "DENTIST",
@@ -125,7 +125,7 @@
         "crequirements": "Doctor of Dental Surgery (DDS) or Doctor of Dental Medicine (DMD) degree from an accredited dental school, licensure as a dentist, clinical experience and specialized training in dental procedures",
         "csalary": 180000,
         "cgrowthrate": 3.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
 
     {
@@ -134,7 +134,7 @@
         "crequirements": "Doctor of Medicine (MD) degree, completion of residency training in diagnostic radiology, board certification in radiology, specialized training in specific imaging modalities",
         "csalary": 400000,
         "cgrowthrate": 9.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "NUTRITIONIST",
@@ -142,7 +142,7 @@
         "crequirements": "Bachelor's or Master's degree in Nutrition, Dietetics, or related field, licensure or certification as a Registered Dietitian (RD), clinical experience and specialized knowledge of nutrition science",
         "csalary": 65000,
         "cgrowthrate": 8.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "MEDICAL RESEARCHER",
@@ -150,7 +150,7 @@
         "crequirements": "Doctoral degree (Ph.D.) in Medical Sciences, Biology, or related field, research experience in medical or biological sciences, strong analytical and research skills",
         "csalary": 95000,
         "cgrowthrate": 8.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "HOSPITAL ADMINISTRATOR",
@@ -158,7 +158,7 @@
         "crequirements": "Master's degree in Healthcare Administration, Business Administration, or related field, leadership experience in healthcare management, knowledge of healthcare regulations and financial management",
         "csalary": 100000,
         "cgrowthrate": 32.0,
-        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE"]
+        "cindustry": ["HEALTHCARE", "MEDICAL SERVICES", "MEDICINE","B"]
     },
     {
         "cname": "FINANCIAL ANALYST",
@@ -166,7 +166,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Accounting, or related field, strong analytical skills, proficiency in financial modeling and analysis, advanced knowledge of financial software and tools, excellent communication skills",
         "csalary": 85000,
         "cgrowthrate": 6.0,
-        "cindustry": ["FINANCE", "BANKING", "ACCOUNTING"]
+        "cindustry": ["FINANCE", "BANKING", "ACCOUNTING","C"]
     },
     {
         "cname": "CHARTERED ACCOUNTANT",
@@ -174,7 +174,7 @@
         "crequirements": "Bachelor's degree in Accounting, Finance, or related field, completion of a professional accounting qualification (such as ACCA, CPA, or CA), strong analytical and problem-solving skills, excellent knowledge of accounting principles and regulations, proficiency in accounting software",
         "csalary": 95000,
         "cgrowthrate": 4.0,
-        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING"]
+        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING","C"]
     },
     {
         "cname": "INVESTMENT BANKER",
@@ -182,7 +182,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, strong analytical and quantitative skills, excellent communication and negotiation skills, proficiency in financial modeling and analysis, knowledge of financial markets and instruments",
         "csalary": 120000,
         "cgrowthrate": 5.0,
-        "cindustry": ["FINANCE", "BANKING", "INVESTMENT"]
+        "cindustry": ["FINANCE", "BANKING", "INVESTMENT","C"]
     },
     {
         "cname": "AUDITOR",
@@ -190,7 +190,7 @@
         "crequirements": "Bachelor's degree in Accounting, Finance, or related field, certification such as Certified Public Accountant (CPA) or Certified Internal Auditor (CIA), strong analytical and problem-solving skills, proficiency in auditing software and tools, excellent knowledge of auditing standards and regulations",
         "csalary": 70000,
         "cgrowthrate": 6.0,
-        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING"]
+        "cindustry": ["FINANCE", "ACCOUNTING", "BANKING","C"]
     },
     {
         "cname": "TAX CONSULTANT",
@@ -198,7 +198,7 @@
         "crequirements": "Bachelor's degree in Accounting, Finance, or related field, certification such as Certified Public Accountant (CPA) or Enrolled Agent (EA), strong analytical and problem-solving skills, excellent knowledge of tax laws and regulations, proficiency in tax preparation software",
         "csalary": 80000,
         "cgrowthrate": 5.0,
-        "cindustry": ["FINANCE", "ACCOUNTING", "LEGAL SERVICES"]
+        "cindustry": ["FINANCE", "ACCOUNTING", "LEGAL SERVICES","H","C"]
     },
     {
         "cname": "ACTUARY",
@@ -206,7 +206,7 @@
         "crequirements": "Bachelor's degree in Actuarial Science, Mathematics, Statistics, or related field, professional certification such as Fellow of the Society of Actuaries (FSA) or Chartered Enterprise Risk Actuary (CERA), strong analytical and problem-solving skills, proficiency in statistical and financial modeling software, excellent knowledge of risk management principles",
         "csalary": 120000,
         "cgrowthrate": 7.0,
-        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT"]
+        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT","C"]
     },
     {
         "cname": "INSURANCE UNDERWRITER",
@@ -214,7 +214,7 @@
         "crequirements": "Bachelor's degree in Finance, Business, or related field, certification such as Chartered Property Casualty Underwriter (CPCU), strong analytical and decision-making skills, proficiency in underwriting software, excellent knowledge of insurance principles and regulations",
         "csalary": 75000,
         "cgrowthrate": 4.0,
-        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT"]
+        "cindustry": ["FINANCE", "INSURANCE", "RISK MANAGEMENT","C"]
     },
     {
         "cname": "RISK MANAGER",
@@ -222,7 +222,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Certified Risk Manager (CRM) or Financial Risk Manager (FRM), strong analytical and problem-solving skills, knowledge of risk management principles and methodologies, experience in financial analysis and modeling",
         "csalary": 110000,
         "cgrowthrate": 7.0,
-        "cindustry": ["FINANCE", "BANKING", "INSURANCE"]
+        "cindustry": ["FINANCE", "BANKING", "INSURANCE","C"]
     },
     {
         "cname": "FINANCIAL ADVISOR",
@@ -230,7 +230,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Certified Financial Planner (CFP) or Chartered Financial Analyst (CFA), strong interpersonal and communication skills, knowledge of investment strategies and financial planning principles, experience in financial analysis and portfolio management",
         "csalary": 90000,
         "cgrowthrate": 7.0,
-        "cindustry": ["FINANCE", "INVESTMENT", "FINANCIAL SERVICES"]
+        "cindustry": ["FINANCE", "INVESTMENT", "FINANCIAL SERVICES","C"]
     },
     {
         "cname": "EQUITY ANALYST",
@@ -238,7 +238,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Business, or related field, professional certification such as Chartered Financial Analyst (CFA), strong analytical and quantitative skills, proficiency in financial modeling and valuation techniques, knowledge of equity markets and investment analysis",
         "csalary": 100000,
         "cgrowthrate": 5.0,
-        "cindustry": ["FINANCE", "INVESTMENT", "EQUITY RESEARCH"]
+        "cindustry": ["FINANCE", "INVESTMENT", "EQUITY RESEARCH","C"]
     },
     {
         "cname": "CIVIL ENGINEER",
@@ -246,7 +246,7 @@
         "crequirements": "Bachelor's degree in Civil Engineering, Professional Engineer (PE) license, strong analytical and problem-solving skills, proficiency in engineering design software, knowledge of construction methods and regulations",
         "csalary": 86000,
         "cgrowthrate": 6.0,
-        "cindustry": ["CONSTRUCTION", "ENGINEERING", "INFRASTRUCTURE"]
+        "cindustry": ["CONSTRUCTION", "ENGINEERING","D", "INFRASTRUCTURE"]
     },
     {
         "cname": "MECHANICAL ENGINEER",
@@ -254,7 +254,7 @@
         "crequirements": "Bachelor's degree in Mechanical Engineering, Professional Engineer (PE) license, strong analytical and technical skills, proficiency in CAD software, knowledge of materials science and manufacturing processes",
         "csalary": 87000,
         "cgrowthrate": 4.0,
-        "cindustry": ["MANUFACTURING", "AUTOMOTIVE", "AEROSPACE", "ENGINEERING"]
+        "cindustry": ["MANUFACTURING", "AUTOMOTIVE", "AEROSPACE", "ENGINEERING","D"]
     },
     {
         "cname": "ELECTRICAL ENGINEER",
@@ -262,7 +262,7 @@
         "crequirements": "Bachelor's degree in Electrical Engineering, Professional Engineer (PE) license, strong analytical and problem-solving skills, proficiency in electrical design software, knowledge of electrical systems and standards",
         "csalary": 90000,
         "cgrowthrate": 5.0,
-        "cindustry": ["POWER GENERATION", "TELECOMMUNICATIONS", "MANUFACTURING", "ENGINEERING"]
+        "cindustry": ["POWER GENERATION", "TELECOMMUNICATIONS", "MANUFACTURING", "ENGINEERING","D"]
     },
     {
         "cname": "CHEMICAL ENGINEER",
@@ -270,7 +270,7 @@
         "crequirements": "Bachelor's degree in Chemical Engineering, Professional Engineer (PE) license, proficiency in CAD software and process simulation tools, strong analytical and problem-solving skills, knowledge of chemical safety standards and regulations",
         "csalary": 95000,
         "cgrowthrate": 8.0,
-        "cindustry": ["MANUFACTURING", "ENGINEERING", "PHARMACEUTICALS"]
+        "cindustry": ["MANUFACTURING", "ENGINEERING","D", "PHARMACEUTICALS"]
     },
     {
         "cname": "AEROSPACE ENGINEER",
@@ -278,7 +278,7 @@
         "crequirements": "Bachelor's degree in Aerospace Engineering or related field, Professional Engineer (PE) license, proficiency in CAD software and aerospace design tools, strong analytical and problem-solving skills, knowledge of aerodynamics and aerospace systems",
         "csalary": 100000,
         "cgrowthrate": 6.0,
-        "cindustry": ["AEROSPACE", "ENGINEERING", "DEFENSE"]
+        "cindustry": ["AEROSPACE", "ENGINEERING","D", "DEFENSE"]
     },
     {
         "cname": "BIOMEDICAL ENGINEER",
@@ -286,7 +286,7 @@
         "crequirements": "Bachelor's degree in Biomedical Engineering or related field, Professional Engineer (PE) license or relevant certification, proficiency in CAD software and biomedical design tools, strong analytical and problem-solving skills, knowledge of medical device regulations",
         "csalary": 90000,
         "cgrowthrate": 7.0,
-        "cindustry": ["BIOMEDICAL", "HEALTHCARE", "MEDICAL DEVICE"]
+        "cindustry": ["BIOMEDICAL", "HEALTHCARE", "MEDICAL DEVICE","D"]
     },
     {
         "cname": "ENVIRONMENTAL ENGINEER",
@@ -294,7 +294,7 @@
         "crequirements": "Bachelor's degree in Environmental Engineering, Civil Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in CAD software and environmental modeling tools, strong analytical and problem-solving skills, knowledge of environmental regulations",
         "csalary": 85000,
         "cgrowthrate": 5.0,
-        "cindustry": ["ENVIRONMENTAL", "ENGINEERING", "CONSULTING"]
+        "cindustry": ["ENVIRONMENTAL", "ENGINEERING","D", "CONSULTING"]
     },
     {
         "cname": "MATERIALS ENGINEER",
@@ -302,7 +302,7 @@
         "crequirements": "Bachelor's degree in Materials Science, Materials Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in material testing and characterization techniques, strong analytical and problem-solving skills, knowledge of manufacturing processes",
         "csalary": 90000,
         "cgrowthrate": 6.0,
-        "cindustry": ["MANUFACTURING", "MATERIALS", "RESEARCH"]
+        "cindustry": ["MANUFACTURING", "MATERIALS", "RESEARCH","D"]
     },
     {
         "cname": "PETROLEUM ENGINEER",
@@ -310,7 +310,7 @@
         "crequirements": "Bachelor's degree in Petroleum Engineering, Chemical Engineering, or related field, Professional Engineer (PE) license or relevant certification, proficiency in drilling and reservoir simulation software, strong analytical and problem-solving skills, knowledge of oil and gas extraction techniques",
         "csalary": 120000,
         "cgrowthrate": 5.0,
-        "cindustry": ["OIL AND GAS", "ENERGY", "ENGINEERING"]
+        "cindustry": ["OIL AND GAS", "ENERGY", "ENGINEERING","D"]
     },
     {
         "cname": "ROBOTICS ENGINEER",
@@ -318,7 +318,7 @@
         "crequirements": "Bachelor's degree in Robotics Engineering, Mechanical Engineering, Electrical Engineering, or related field, proficiency in CAD software and robotics programming languages (e.g., C++, Python), strong analytical and problem-solving skills, knowledge of robotic systems and automation technologies",
         "csalary": 110000,
         "cgrowthrate": 8.0,
-        "cindustry": ["MANUFACTURING", "TECHNOLOGY", "RESEARCH"]
+        "cindustry": ["MANUFACTURING", "TECHNOLOGY", "RESEARCH","D"]
     },
 
     {
@@ -327,7 +327,7 @@
         "crequirements": "Bachelor's degree in Education, Teaching Credential or Certification (depending on location), subject-specific expertise, classroom management skills, effective communication and interpersonal skills",
         "csalary": 60000,
         "cgrowthrate": 4.0,
-        "cindustry": ["EDUCATION"]
+        "cindustry": ["EDUCATION","E"]
     },
     {
         "cname": "PROFESSOR",
@@ -335,7 +335,7 @@
         "crequirements": "Doctoral degree (Ph.D.) in the relevant field, significant research and teaching experience, publications in peer-reviewed journals, commitment to continuous learning and professional development",
         "csalary": 85000,
         "cgrowthrate": 9.0,
-        "cindustry": ["EDUCATION", "RESEARCH"]
+        "cindustry": ["EDUCATION","E", "RESEARCH"]
     },
     {
         "cname": "SCHOOL PRINCIPAL",
@@ -343,7 +343,7 @@
         "crequirements": "Master's degree in Education Administration or related field, teaching experience, principal certification or licensure (depending on location), leadership and management skills, knowledge of educational laws and regulations",
         "csalary": 90000,
         "cgrowthrate": 8.0,
-        "cindustry": ["EDUCATION", "ADMINISTRATION"]
+        "cindustry": ["EDUCATION","E", "ADMINISTRATION"]
     },
     {
         "cname": "EDUCATION CONSULTANT",
@@ -351,7 +351,7 @@
         "crequirements": "Master's degree in Education, Educational Leadership, or related field, expertise in a specific area of education, consulting experience, strong analytical and problem-solving skills, proficiency in educational assessment tools and techniques",
         "csalary": 80000,
         "cgrowthrate": 6.0,
-        "cindustry": ["EDUCATION", "CONSULTING"]
+        "cindustry": ["EDUCATION","E", "CONSULTING"]
     },
     {
         "cname": "ACADEMIC COORDINATOR",
@@ -359,7 +359,7 @@
         "crequirements": "Master's degree in Education, Curriculum and Instruction, or related field, teaching experience in educational settings, strong organizational and leadership skills, knowledge of educational standards and regulations",
         "csalary": 60000,
         "cgrowthrate": 5.0,
-        "cindustry": ["EDUCATION"]
+        "cindustry": ["EDUCATION","E"]
     },
     {
         "cname": "LIBRARIAN",
@@ -367,7 +367,7 @@
         "crequirements": "Master's degree in Library Science (MLS) or Information Science, certification as a Professional Librarian (depending on jurisdiction), knowledge of library management systems and digital resources, strong research and communication skills",
         "csalary": 55000,
         "cgrowthrate": 5.0,
-        "cindustry": ["EDUCATION", "LIBRARY SCIENCE"]
+        "cindustry": ["EDUCATION","E", "LIBRARY SCIENCE"]
     },
     {
         "cname": "CAREER COUNSELLOR",
@@ -375,7 +375,7 @@
         "crequirements": "Master's degree in Counseling, Career Development, or related field, licensure or certification as a Career Counselor (depending on jurisdiction), counseling experience with diverse populations, knowledge of career assessment tools and resources",
         "csalary": 58000,
         "cgrowthrate": 8.0,
-        "cindustry": ["EDUCATION", "CAREER COUNSELING"]
+        "cindustry": ["EDUCATION","E", "CAREER COUNSELING"]
     },
     {
         "cname": "CURRICULUM DEVELOPER",
@@ -383,7 +383,7 @@
         "crequirements": "Master's degree in Education, Curriculum and Instruction, Instructional Design, or related field, teaching experience in educational settings, expertise in curriculum development and educational standards, proficiency in instructional design software and technologies",
         "csalary": 65000,
         "cgrowthrate": 7.0,
-        "cindustry": ["EDUCATION"]
+        "cindustry": ["EDUCATION","E"]
     },
     {
         "cname": "SPECIAL EDUCATION TEACHER",
@@ -391,7 +391,7 @@
         "crequirements": "Bachelor's degree in Special Education or related field, state teaching certification in Special Education, knowledge of special education laws and regulations, experience working with students with disabilities, strong communication and collaboration skills",
         "csalary": 60000,
         "cgrowthrate": 8.0,
-        "cindustry": ["EDUCATION"]
+        "cindustry": ["EDUCATION","E"]
     },
     {
         "cname": "ONLINE INSTRUCTOR",
@@ -399,7 +399,7 @@
         "crequirements": "Master's degree or higher in Education, subject-specific field, or related discipline, teaching experience in traditional or online settings, proficiency in online teaching tools and learning management systems, strong communication and organizational skills",
         "csalary": 65000,
         "cgrowthrate": 12.0,
-        "cindustry": ["EDUCATION", "TECHNOLOGY"]
+        "cindustry": ["EDUCATION","E", "TECHNOLOGY"]
     },
     {
         "cname": "MARKETING MANAGER",
@@ -407,7 +407,7 @@
         "crequirements": "Bachelor's degree in Marketing, Business Administration, or related field, proven experience in marketing or advertising, strong leadership and communication skills, proficiency in marketing analytics and digital tools, strategic thinking and creativity",
         "csalary": 90000,
         "cgrowthrate": 7.0,
-        "cindustry": ["MARKETING", "ADVERTISING", "RETAIL"]
+        "cindustry": ["MARKETING", "ADVERTISING", "RETAIL","F"]
     },
     {
         "cname": "SALES MANAGER",
@@ -415,7 +415,7 @@
         "crequirements": "Bachelor's degree in Business Administration, Sales, or related field, proven experience in sales management, strong leadership and motivational skills, excellent communication and negotiation abilities, proficiency in sales analytics and CRM software",
         "csalary": 100000,
         "cgrowthrate": 5.0,
-        "cindustry": ["SALES", "RETAIL", "MANUFACTURING"]
+        "cindustry": ["SALES", "RETAIL", "MANUFACTURING","F"]
     },
     {
         "cname": "DIGITAL MARKETING SPECIALIST",
@@ -423,7 +423,7 @@
         "crequirements": "Bachelor's degree in Marketing, Digital Communications, or related field, proven experience in digital marketing or online advertising, strong analytical and technical skills, proficiency in digital marketing tools and platforms, knowledge of SEO, SEM, and social media marketing",
         "csalary": 80000,
         "cgrowthrate": 10.0,
-        "cindustry": ["DIGITAL MARKETING", "TECHNOLOGY", "E-COMMERCE"]
+        "cindustry": ["DIGITAL MARKETING", "TECHNOLOGY", "E-COMMERCE","F"]
     },
     {
         "cname": "MARKET RESEARCH ANALYST",
@@ -431,7 +431,7 @@
         "crequirements": "Bachelor's degree in Market Research, Statistics, Business Administration, or related field, proficiency in statistical software and databases, strong analytical and problem-solving skills, excellent communication and presentation skills, understanding of marketing principles",
         "csalary": 65000,
         "cgrowthrate": 18.0,
-        "cindustry": ["MARKETING", "CONSULTING", "RETAIL"]
+        "cindustry": ["MARKETING", "CONSULTING", "RETAIL","F"]
     },
     {
         "cname": "BRAND MANAGER",
@@ -439,7 +439,7 @@
         "crequirements": "Bachelor's degree in Marketing, Business Administration, or related field, experience in brand management or marketing roles, strong analytical and strategic planning skills, creativity and innovation, excellent communication and interpersonal skills",
         "csalary": 90000,
         "cgrowthrate": 7.0,
-        "cindustry": ["MARKETING", "CONSUMER GOODS", "TECHNOLOGY"]
+        "cindustry": ["MARKETING", "CONSUMER GOODS", "TECHNOLOGY","F"]
     },
     {
         "cname": "ADVERTISING EXECUTIVE",
@@ -447,7 +447,7 @@
         "crequirements": "Bachelor's degree in Advertising, Marketing, Communications, or related field, experience in advertising or marketing roles, strong creative and strategic thinking skills, excellent communication and negotiation skills, proficiency in digital marketing platforms",
         "csalary": 80000,
         "cgrowthrate": 6.0,
-        "cindustry": ["MARKETING", "ADVERTISING", "MEDIA"]
+        "cindustry": ["MARKETING", "ADVERTISING", "MEDIA","F"]
     },
     {
         "cname": "PUBLIC RELATIONS SPECIALIST",
@@ -455,7 +455,7 @@
         "crequirements": "Bachelor's degree in Public Relations, Communications, Journalism, or related field, experience in PR or communications roles, strong writing and editing skills, media relations experience, crisis management skills, digital media proficiency",
         "csalary": 70000,
         "cgrowthrate": 9.0,
-        "cindustry": ["MARKETING", "PR AGENCIES", "CORPORATE COMMUNICATIONS"]
+        "cindustry": ["MARKETING", "PR AGENCIES", "CORPORATE COMMUNICATIONS","F"]
     },
     {
         "cname": "E-COMMERCE MANAGER",
@@ -463,7 +463,7 @@
         "crequirements": "Bachelor's degree in Marketing, Business Administration, E-commerce, or related field, proven experience in e-commerce management or digital marketing, proficiency in e-commerce platforms (e.g., Shopify, Magento), strong analytical and problem-solving skills, knowledge of SEO, SEM, and digital advertising techniques",
         "csalary": 85000,
         "cgrowthrate": 10.0,
-        "cindustry": ["E-COMMERCE", "DIGITAL MARKETING"]
+        "cindustry": ["E-COMMERCE", "DIGITAL MARKETING","F"]
     },
     {
         "cname": "MEDIA BUYER",
@@ -471,7 +471,7 @@
         "crequirements": "Bachelor's degree in Marketing, Advertising, Communications, or related field, proven experience in media buying or advertising, strong negotiation and analytical skills, knowledge of media planning and buying software, familiarity with media measurement metrics (e.g., CPM, CPC)",
         "csalary": 70000,
         "cgrowthrate": 5.0,
-        "cindustry": ["ADVERTISING", "MEDIA"]
+        "cindustry": ["ADVERTISING", "MEDIA","F"]
     },
     {
         "cname": "SALES REPRESENTATIVE",
@@ -479,7 +479,7 @@
         "crequirements": "High school diploma or Bachelor's degree in Business Administration, Marketing, or related field, proven sales experience or relevant training, strong communication and negotiation skills, ability to build and maintain customer relationships, proficiency in CRM software and sales tracking tools",
         "csalary": 60000,
         "cgrowthrate": 3.0,
-        "cindustry": ["SALES", "MARKETING"]
+        "cindustry": ["SALES", "MARKETING","F"]
     },
     {
         "cname": "BUSINESS DEVELOPMENT MANAGER",
@@ -487,7 +487,7 @@
         "crequirements": "Bachelor's degree in Business Administration, Marketing, or related field, proven experience in business development or sales, strong negotiation and communication skills, ability to build and maintain relationships, analytical and strategic thinking",
         "csalary": 95000,
         "cgrowthrate": 8.0,
-        "cindustry": ["TECHNOLOGY", "FINANCE", "HEALTHCARE", "MANUFACTURING"]
+        "cindustry": ["TECHNOLOGY", "FINANCE", "HEALTHCARE", "MANUFACTURING","G","B"]
     },
     {
         "cname": "OPERATIONS MANAGER",
@@ -495,7 +495,7 @@
         "crequirements": "Bachelor's degree in Business Administration, Operations Management, or related field, proven experience in operations management, strong leadership and organizational skills, analytical and problem-solving abilities, knowledge of industry regulations and standards",
         "csalary": 100000,
         "cgrowthrate": 6.0,
-        "cindustry": ["MANUFACTURING", "RETAIL", "LOGISTICS", "HEALTHCARE"]
+        "cindustry": ["MANUFACTURING", "RETAIL", "LOGISTICS", "HEALTHCARE","G","B"]
     },
     {
         "cname": "PROJECT MANAGER",
@@ -503,7 +503,7 @@
         "crequirements": "Bachelor's degree in Project Management, Business Administration, or related field, professional certification such as Project Management Professional (PMP), proven experience in project management, strong leadership and communication skills, proficiency in project management tools and techniques",
         "csalary": 105000,
         "cgrowthrate": 10.0,
-        "cindustry": ["CONSTRUCTION", "INFORMATION TECHNOLOGY", "HEALTHCARE", "FINANCE"]
+        "cindustry": ["CONSTRUCTION", "INFORMATION TECHNOLOGY", "HEALTHCARE", "FINANCE","G","B"]
     },
     {
         "cname": "MANAGEMENT CONSULTANT",
@@ -511,7 +511,7 @@
         "crequirements": "Bachelor's degree in Business Administration, Management, or related field, Master's degree in Business Administration (MBA) or related discipline preferred, proven experience in management consulting or related field, strong analytical and problem-solving skills, excellent communication and interpersonal skills",
         "csalary": 120000,
         "cgrowthrate": 7.0,
-        "cindustry": ["CONSULTING", "ADVISORY", "PROFESSIONAL SERVICES", "TECHNOLOGY"]
+        "cindustry": ["CONSULTING", "ADVISORY", "PROFESSIONAL SERVICES", "TECHNOLOGY","G"]
     },
     {
         "cname": "SUPPLY CHAIN MANAGER",
@@ -519,7 +519,7 @@
         "crequirements": "Bachelor's degree in Supply Chain Management, Logistics, Business Administration, or related field, professional certification such as Certified Supply Chain Professional (CSCP) or similar, proven experience in supply chain management or logistics, strong analytical and problem-solving skills, proficiency in supply chain management software",
         "csalary": 100000,
         "cgrowthrate": 6.0,
-        "cindustry": ["MANUFACTURING", "RETAIL", "LOGISTICS"]
+        "cindustry": ["MANUFACTURING", "RETAIL", "LOGISTICS","G"]
     },
     {
         "cname": "HUMAN RESOURCES MANAGER",
@@ -527,7 +527,7 @@
         "crequirements": "Bachelor's degree in Human Resources, Business Administration, Psychology, or related field, professional certification such as SHRM Certified Professional (SHRM-CP) or Senior Professional in Human Resources (SPHR), proven experience in HR management or related roles, strong interpersonal and communication skills, knowledge of HRIS and HR software",
         "csalary": 95000,
         "cgrowthrate": 9.0,
-        "cindustry": ["CORPORATE", "HEALTHCARE", "EDUCATION"]
+        "cindustry": ["CORPORATE", "HEALTHCARE", "EDUCATION","G","B"]
     },
     {
         "cname": "LOGISTICS COORDINATOR",
@@ -535,7 +535,7 @@
         "crequirements": "Bachelor's degree in Logistics, Supply Chain Management, Business Administration, or related field, experience in logistics coordination or supply chain operations, proficiency in logistics software and systems, strong analytical and problem-solving skills, ability to multitask and prioritize",
         "csalary": 70000,
         "cgrowthrate": 5.0,
-        "cindustry": ["TRANSPORTATION", "RETAIL", "MANUFACTURING"]
+        "cindustry": ["TRANSPORTATION", "RETAIL", "MANUFACTURING","G"]
     },
     {
         "cname": "QUALITY ASSURANCE MANAGER",
@@ -543,7 +543,7 @@
         "crequirements": "Bachelor's degree in Quality Assurance, Engineering, Business Administration, or related field, professional certification such as Certified Quality Manager (CQM) or Six Sigma Green Belt, strong leadership and communication skills, proficiency in quality management systems and tools, experience in quality assurance or related field",
         "csalary": 90000,
         "cgrowthrate": 6.0,
-        "cindustry": ["MANUFACTURING", "HEALTHCARE", "INFORMATION TECHNOLOGY"]
+        "cindustry": ["MANUFACTURING", "HEALTHCARE", "INFORMATION TECHNOLOGY","G","B"]
     },
     {
         "cname": "BUSINESS ANALYST",
@@ -551,7 +551,7 @@
         "crequirements": "Bachelor's degree in Business Administration, Management Information Systems, Computer Science, or related field, certification such as Certified Business Analyst Professional (CBAP) or Project Management Professional (PMP), strong analytical and problem-solving skills, proficiency in business analysis tools and techniques, experience in business analysis or related field",
         "csalary": 85000,
         "cgrowthrate": 11.0,
-        "cindustry": ["FINANCE", "HEALTHCARE", "RETAIL", "TELECOMMUNICATIONS"]
+        "cindustry": ["FINANCE", "HEALTHCARE", "RETAIL", "TELECOMMUNICATIONS","G","B"]
     },
     {
         "cname": "RISK ANALYST",
@@ -559,7 +559,7 @@
         "crequirements": "Bachelor's degree in Finance, Economics, Business Administration, or related field, professional certification such as Chartered Financial Analyst (CFA) or Financial Risk Manager (FRM), strong analytical and problem-solving skills, proficiency in risk assessment and management tools, experience in risk analysis or related field",
         "csalary": 95000,
         "cgrowthrate": 8.0,
-        "cindustry": ["BANKING", "INSURANCE", "INVESTMENT", "HEALTHCARE"]
+        "cindustry": ["BANKING", "INSURANCE", "INVESTMENT", "HEALTHCARE","G","B"]
     },
     {
         "cname": "LAWYER",
@@ -567,7 +567,7 @@
         "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam, licensure to practice law, strong analytical and research skills, excellent oral and written communication skills, ethical and professional conduct",
         "csalary": 120000,
         "cgrowthrate": 8.0,
-        "cindustry": ["LEGAL SERVICES"]
+        "cindustry": ["LEGAL SERVICES","H"]
     },
     {
         "cname": "CORPORATE COUNSEL",
@@ -575,7 +575,7 @@
         "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam, licensure to practice law, experience in corporate law or relevant legal field, strong analytical and problem-solving skills, excellent communication and negotiation skills",
         "csalary": 160000,
         "cgrowthrate": 10.0,
-        "cindustry": ["LEGAL SERVICES", "CORPORATE"]
+        "cindustry": ["LEGAL SERVICES","H", "CORPORATE"]
     },
     {
         "cname": "LEGAL ADVISOR",
@@ -583,7 +583,7 @@
         "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, passing the bar exam (optional depending on jurisdiction), experience in relevant legal field, strong analytical and research skills, excellent oral and written communication skills",
         "csalary": 130000,
         "cgrowthrate": 7.0,
-        "cindustry": ["LEGAL SERVICES"]
+        "cindustry": ["LEGAL SERVICES","H"]
     },
     {
         "cname": "JUDGE",
@@ -591,7 +591,7 @@
         "crequirements": "Bachelor's degree, Juris Doctor (JD) degree from an accredited law school, experience as a practicing attorney, appointment or election to judicial office, strong knowledge of legal principles and procedures, excellent decision-making and interpersonal skills",
         "csalary": 150000,
         "cgrowthrate": 5.0,
-        "cindustry": ["LEGAL SERVICES", "JUDICIARY"]
+        "cindustry": ["LEGAL SERVICES","H", "JUDICIARY"]
     },
     {
         "cname": "PARALEGAL",
@@ -599,7 +599,7 @@
         "crequirements": "Associate's degree or Bachelor's degree in Paralegal Studies or related field, certification as a Certified Paralegal (CP) or similar credential, strong research and writing skills, proficiency in legal software and databases, knowledge of legal principles and procedures",
         "csalary": 52000,
         "cgrowthrate": 12.0,
-        "cindustry": ["LEGAL SERVICES"]
+        "cindustry": ["LEGAL SERVICES","H"]
     },
     {
         "cname": "LEGAL CONSULTANT",
@@ -607,7 +607,7 @@
         "crequirements": "Juris Doctor (JD) degree or Bachelor's degree in Law, licensure to practice law (depending on jurisdiction), specialized knowledge in a specific area of law, strong analytical and problem-solving skills, excellent communication and negotiation skills",
         "csalary": 95000,
         "cgrowthrate": 9.0,
-        "cindustry": ["LEGAL SERVICES"]
+        "cindustry": ["LEGAL SERVICES","H"]
     },
     {
         "cname": "INTELLECTUAL PROPERTY SPECIALIST",
@@ -615,7 +615,7 @@
         "crequirements": "Bachelor's degree in Law, Intellectual Property, or related field, licensure to practice law (optional depending on role), specialized knowledge in intellectual property law, strong research and analytical skills, proficiency in IP management software",
         "csalary": 110000,
         "cgrowthrate": 10.0,
-        "cindustry": ["LEGAL SERVICES", "TECHNOLOGY"]
+        "cindustry": ["LEGAL SERVICES","H", "TECHNOLOGY"]
     },
     {
         "cname": "COMPLIANCE OFFICER",
@@ -623,7 +623,7 @@
         "crequirements": "Bachelor's degree in Law, Business, Finance, or related field, certification such as Certified Compliance & Ethics Professional (CCEP), strong analytical and problem-solving skills, knowledge of regulatory requirements and compliance frameworks, excellent communication and interpersonal skills",
         "csalary": 85000,
         "cgrowthrate": 8.0,
-        "cindustry": ["FINANCE", "LEGAL SERVICES", "CORPORATE COMPLIANCE"]
+        "cindustry": ["FINANCE", "LEGAL SERVICES","H", "CORPORATE COMPLIANCE"]
     },
     {
         "cname": "ARBITRATOR",
@@ -631,7 +631,7 @@
         "crequirements": "Bachelor's degree in Law, Business, or related field, specialized training in arbitration or alternative dispute resolution (ADR), experience in legal practice or dispute resolution, strong analytical and decision-making skills, excellent communication and negotiation skills",
         "csalary": 78000,
         "cgrowthrate": 6.0,
-        "cindustry": ["LEGAL SERVICES", "CONSULTING", "ADR"]
+        "cindustry": ["LEGAL SERVICES","H", "CONSULTING", "ADR"]
     },
     {
         "cname": "COURT REPORTER",
@@ -639,7 +639,7 @@
         "crequirements": "Postsecondary certificate or associate's degree in Court Reporting or related field, certification such as Certified Court Reporter (CCR) or Registered Professional Reporter (RPR), proficiency in stenography or voice recording technology, strong typing and editing skills, attention to detail and accuracy",
         "csalary": 60000,
         "cgrowthrate": 7.0,
-        "cindustry": ["LEGAL SERVICES", "GOVERNMENT", "FREELANCE"]
+        "cindustry": ["LEGAL SERVICES","H", "GOVERNMENT", "FREELANCE"]
     },
     {
         "cname": "JOURNALIST",
@@ -647,7 +647,7 @@
         "crequirements": "Bachelor's degree in Journalism, Communication, or related field, strong writing and research skills, experience in reporting and news gathering, familiarity with media ethics and legal principles, proficiency in multimedia and digital publishing tools",
         "csalary": 45000,
         "cgrowthrate": 7.0,
-        "cindustry": ["MEDIA"]
+        "cindustry": ["MEDIA","I"]
     },
     {
         "cname": "FILM DIRECTOR",
@@ -655,7 +655,7 @@
         "crequirements": "Bachelor's degree in Film, Cinematography, or related field, experience in film production and directing, strong creative vision and storytelling skills, proficiency in film editing software and production equipment",
         "csalary": 80000,
         "cgrowthrate": 5.0,
-        "cindustry": ["ENTERTAINMENT", "FILM"]
+        "cindustry": ["ENTERTAINMENT", "FILM","I"]
     },
     {
         "cname": "ACTOR/ACTRESS",
@@ -663,7 +663,7 @@
         "crequirements": "Formal training in acting from a drama school, university program, or acting workshops, strong memorization and improvisation skills, emotional intelligence and ability to connect with characters, experience in live performances or film projects",
         "csalary": 54000,
         "cgrowthrate": 5.0,
-        "cindustry": ["ENTERTAINMENT"]
+        "cindustry": ["ENTERTAINMENT","I"]
     },
     {
         "cname": "PRODUCER",
@@ -671,7 +671,7 @@
         "crequirements": "Bachelor's degree in Film Production, Media Studies, Business Administration, or related field, experience in film or television production, strong project management and budgeting skills, negotiation and communication skills",
         "csalary": 78000,
         "cgrowthrate": 10.0,
-        "cindustry": ["ENTERTAINMENT", "MEDIA"]
+        "cindustry": ["ENTERTAINMENT", "MEDIA","I"]
     },
     {
         "cname": "SCREENWRITER",
@@ -679,7 +679,7 @@
         "crequirements": "Bachelor's degree in Film Studies, Creative Writing, English, or related field, portfolio of screenwriting samples or completed scripts, strong storytelling and character development skills, familiarity with screenplay formatting software",
         "csalary": 62000,
         "cgrowthrate": 8.0,
-        "cindustry": ["ENTERTAINMENT", "MEDIA"]
+        "cindustry": ["ENTERTAINMENT", "MEDIA","I"]
     },
     {
         "cname": "SOUND ENGINEER",
@@ -687,7 +687,7 @@
         "crequirements": "Bachelor's degree in Audio Engineering, Sound Production, Music Technology, or related field, proficiency with audio recording and editing software (e.g., Pro Tools, Logic Pro), strong technical and problem-solving skills, attention to detail and excellent auditory perception",
         "csalary": 58000,
         "cgrowthrate": 6.0,
-        "cindustry": ["ENTERTAINMENT", "MEDIA", "MUSIC"]
+        "cindustry": ["ENTERTAINMENT", "MEDIA", "MUSIC","I"]
     },
     {
         "cname": "VIDEO EDITOR",
@@ -695,7 +695,7 @@
         "crequirements": "Bachelor's degree in Film Studies, Media Production, or related field, proficiency in video editing software (e.g., Adobe Premiere Pro, Final Cut Pro), strong creative and technical skills in video editing and post-production, ability to work under pressure and meet tight deadlines, excellent communication and collaboration skills",
         "csalary": 60000,
         "cgrowthrate": 22.0,
-        "cindustry": ["MEDIA", "ENTERTAINMENT", "MARKETING"]
+        "cindustry": ["MEDIA", "ENTERTAINMENT", "MARKETING","I"]
     },
     {
         "cname": "SOCIAL MEDIA MANAGER",
@@ -703,7 +703,7 @@
         "crequirements": "Bachelor's degree in Marketing, Communications, Public Relations, or related field, proven experience in social media management, familiarity with social media scheduling and analytics tools (e.g., Hootsuite, Buffer, Google Analytics), strong writing and editing skills, ability to interpret analytics and implement data-driven strategies",
         "csalary": 70000,
         "cgrowthrate": 24.0,
-        "cindustry": ["MARKETING", "ADVERTISING", "PUBLIC RELATIONS"]
+        "cindustry": ["MARKETING", "ADVERTISING", "PUBLIC RELATIONS","I"]
     },
     {
         "cname": "BROADCAST TECHNICIAN",
@@ -711,7 +711,7 @@
         "crequirements": "Associate's degree or technical certification in Broadcasting, Audiovisual Technology, or related field, hands-on experience with audio and video equipment, knowledge of broadcast operations and technical standards, ability to troubleshoot and resolve technical issues quickly, strong attention to detail and organizational skills",
         "csalary": 50000,
         "cgrowthrate": 9.0,
-        "cindustry": ["MEDIA", "ENTERTAINMENT", "TELECOMMUNICATIONS"]
+        "cindustry": ["MEDIA", "ENTERTAINMENT", "TELECOMMUNICATIONS","I"]
     },
     {
         "cname": "EVENT PLANNER",
@@ -719,7 +719,7 @@
         "crequirements": "Bachelor's degree in Hospitality Management, Event Planning, Marketing, or related field, proven experience in event planning or hospitality industry, strong organizational and project management skills, ability to manage budgets and negotiate contracts, excellent communication and interpersonal skills",
         "csalary": 55000,
         "cgrowthrate": 8.0,
-        "cindustry": ["EVENT MANAGEMENT", "HOSPITALITY", "MARKETING"]
+        "cindustry": ["EVENT MANAGEMENT", "HOSPITALITY", "MARKETING","I"]
     },
     {
         "cname": "SOLAR ENGINEER",
@@ -727,7 +727,7 @@
         "crequirements": "Bachelor's degree in Mechanical Engineering, Electrical Engineering, Renewable Energy, or related field, proficiency in CAD software and solar energy modeling tools, experience with solar energy system design and installation, knowledge of electrical codes and regulations, strong project management skills",
         "csalary": 80000,
         "cgrowthrate": 9.0,
-        "cindustry": ["ENERGY", "ENGINEERING", "RENEWABLE ENERGY"]
+        "cindustry": ["ENERGY", "ENGINEERING","D", "RENEWABLE ENERGY","J"]
     },
     {
         "cname": "WIND ENERGY ENGINEER",
@@ -735,7 +735,7 @@
         "crequirements": "Bachelor's degree in Mechanical Engineering, Electrical Engineering, Renewable Energy, or related field, proficiency in wind energy modeling software and CAD tools, experience with wind farm design and operation, knowledge of environmental regulations and permitting processes, strong analytical and problem-solving skills",
         "csalary": 85000,
         "cgrowthrate": 11.0,
-        "cindustry": ["ENERGY", "ENGINEERING", "RENEWABLE ENERGY"]
+        "cindustry": ["ENERGY", "ENGINEERING","D", "RENEWABLE ENERGY","J"]
     },
     {
         "cname": "ENERGY ANALYST",
@@ -743,7 +743,7 @@
         "crequirements": "Bachelor's degree in Engineering, Environmental Science, Economics, or related field, proficiency in energy analysis software and statistical tools, experience with energy data analysis and modeling, knowledge of energy efficiency technologies and practices, strong communication and presentation skills",
         "csalary": 75000,
         "cgrowthrate": 8.0,
-        "cindustry": ["ENERGY", "CONSULTING", "RENEWABLE ENERGY"]
+        "cindustry": ["ENERGY", "CONSULTING", "RENEWABLE ENERGY","J"]
     },
     {
         "cname": "ENVIRONMENTAL SCIENTIST",
@@ -751,7 +751,7 @@
         "crequirements": "Bachelor's degree in Environmental Science, Biology, Chemistry, or related field, strong analytical and research skills, proficiency in data collection and analysis methods, knowledge of environmental laws and regulations, effective communication and teamwork skills",
         "csalary": 68000,
         "cgrowthrate": 8.0,
-        "cindustry": ["ENVIRONMENTAL SCIENCE", "RESEARCH", "CONSULTING"]
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "RESEARCH", "CONSULTING","J"]
     },
     {
         "cname": "SUSTAINABILITY CONSULTANT",
@@ -759,7 +759,7 @@
         "crequirements": "Bachelor's degree in Environmental Science, Sustainability, Business, or related field, professional certification such as LEED Accredited Professional (LEED AP), strong analytical and project management skills, knowledge of sustainable practices and regulations, effective communication and stakeholder engagement skills",
         "csalary": 85000,
         "cgrowthrate": 10.0,
-        "cindustry": ["ENVIRONMENTAL CONSULTING", "SUSTAINABILITY", "BUSINESS ADVISORY"]
+        "cindustry": ["ENVIRONMENTAL CONSULTING", "SUSTAINABILITY", "BUSINESS ADVISORY","J"]
     },
     {
         "cname": "GEOLOGIST",
@@ -767,7 +767,7 @@
         "crequirements": "Bachelor's degree in Geology, Earth Sciences, or related field, fieldwork experience, proficiency in geological mapping and data analysis software, knowledge of geological processes and environmental regulations, effective communication and teamwork skills",
         "csalary": 80000,
         "cgrowthrate": 5.0,
-        "cindustry": ["GEOLOGY", "ENERGY", "ENVIRONMENTAL CONSULTING"]
+        "cindustry": ["GEOLOGY", "ENERGY", "ENVIRONMENTAL CONSULTING","J"]
     },
     {
         "cname": "HYDROLOGIST",
@@ -775,7 +775,7 @@
         "crequirements": "Bachelor's degree in Hydrology, Environmental Science, Geosciences, or related field, strong analytical and problem-solving skills, proficiency in GIS and hydrological modeling software, fieldwork experience in hydrological monitoring and data collection",
         "csalary": 75000,
         "cgrowthrate": 7.0,
-        "cindustry": ["ENVIRONMENTAL SCIENCE", "WATER MANAGEMENT"]
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "WATER MANAGEMENT","J"]
     },
     {
         "cname": "CLIMATE CHANGE ANALYST",
@@ -783,7 +783,7 @@
         "crequirements": "Bachelor's or Master's degree in Climate Science, Environmental Science, Geography, or related field, strong analytical and research skills, proficiency in climate modeling and GIS software, knowledge of climate change impacts and adaptation strategies",
         "csalary": 80000,
         "cgrowthrate": 9.0,
-        "cindustry": ["ENVIRONMENTAL SCIENCE", "CLIMATE ANALYSIS"]
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "CLIMATE ANALYSIS","J"]
     },
     {
         "cname": "GREEN BUILDING CONSULTANT",
@@ -791,7 +791,7 @@
         "crequirements": "Bachelor's degree in Architecture, Engineering, Environmental Science, or related field, certification such as LEED Accredited Professional (LEED AP), strong knowledge of sustainable building practices and green building standards, experience in energy auditing and environmental assessment",
         "csalary": 90000,
         "cgrowthrate": 10.0,
-        "cindustry": ["SUSTAINABILITY", "GREEN BUILDING", "CONSTRUCTION"]
+        "cindustry": ["SUSTAINABILITY", "GREEN BUILDING", "CONSTRUCTION","D","J"]
     },
     {
         "cname": "WASTE MANAGEMENT SPECIALIST",
@@ -799,6 +799,6 @@
         "crequirements": "Bachelor's degree in Environmental Science, Engineering, or related field, knowledge of waste management regulations and practices, experience in waste auditing and recycling programs, strong analytical and problem-solving skills",
         "csalary": 70000,
         "cgrowthrate": 5.0,
-        "cindustry": ["ENVIRONMENTAL SCIENCE", "WASTE MANAGEMENT", "RECYCLING"]
+        "cindustry": ["ENVIRONMENTAL SCIENCE", "WASTE MANAGEMENT", "RECYCLING","J"]
     }
 ]

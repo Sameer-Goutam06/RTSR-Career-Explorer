@@ -3,103 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CareerXplorer: <%= Career.title %></title>
+  <title>CareerXplorer: Software Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    /* Style the body */
-    *
-    {
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    html,body
-    {
-        width:100%;
-        height:100%;
-        /* background-color: skyblue; */
+    html, body {
+      width: 100%;
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
     }
-    .main
-    {
-        height: 100%;
-        width: 100%;
-        background-color: #ecebebc9;
+    .main {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
     }
-    .header
-    {
-        font-family: Raleway;
+    .header {
         height: 12vh;
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: skyblue;
-        padding: 0 2vw;
+        padding: 0.5rem 2rem;
+        background-color: #0f52ba;
+        color: white;
     }
     .logo-main {
-        background-color: #dad4d4;
-        height: 80%;
-        width:25%;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        font-family: Comfortaa;
-        font-size: 2.4vmax;
-        font-weight: 600;
-        padding-top: 1%;
+      display: flex;
+      align-items: center;
+      background-color: #dad4d4;
+      height: 100%;
+      width: 25%;
+      border-radius: 50%;
+      justify-content: center;
+      font-family: 'Comfortaa', sans-serif;
+      font-size: 2.4vmax;
+      font-weight: 600;
+      padding-bottom: 0%;
     }
-    .C {
-        color: #0f52ba;
+    .logo-main .C {
+      color: #0f52ba;
     }
-    .X {
-        color: #91c11b;
+    .logo-main .X {
+      color: #91c11b;
     }
-    .content
-    {
-        font-family: Roboto;
-        height: 88vh;
-        width: 100%;
-        overflow-y: scroll;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 2vw;
+    .title h1 {
+      font-size: 1.5rem;
+      margin: 0;
     }
-    .content:nth-child(1){
-        margin: 2vw;
+    .content {
+      flex-grow: 1;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #0f52ba;
+    }
+    .section p, .section h4 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+    .section h4 {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
 <body>
-    <div class="main">
-        <div class="header">
-            <div class="logo-main">
-                <p class="C">Career</p>
-                <p class="X">Xplorer</p>
-            </div>
-            <div class="title">
-                <h1>SOFTWARE DEVELOPER</h1>
-            </div>
-        </div>
-        <div class="content">
-            <div class="requirements">
-                <h2>Requirements:</h2>
-                <h4>Bachelor's degree in Computer Science or related field, proficiency in programming languages (Java, Python, C++), strong problem-solving skills</h4>
-            </div>
-            <div class="industries">
-                <h2>Industries:</h2>
-                <h4>IT, ICT, Tech Industry, Software Development</h4>
-            </div>
-            <div class="salary">
-                <h3>Salary: 90000</h3>
-            </div>
-        </div>
+  <div class="main">
+    <div class="header">
+      <div class="logo-main">
+        <span class="C">Career</span><span class="X">Xplorer</span>
+      </div>
+      <div class="title">
+        <h1>Software Developer</h1>
+      </div>
     </div>
+    <div class="content">
+      <div class="section requirements">
+        <h2>Requirements</h2>
+        <h4>Bachelor's degree in Computer Science or related field, proficiency in programming languages (Java, Python, C++), strong problem-solving skills.</h4>
+      </div>
+      <div class="section industries">
+        <h2>Industries</h2>
+        <h4>IT, ICT, Tech Industry, Software Development</h4>
+      </div>
+      <div class="section income">
+        <h2>Salary</h2>
+        <h4>$90,000 per year</h4>
+        <h2>Growth Rate</h2>
+        <h4>10%</h4>
+      </div>
+      <div class="section desc">
+        <h2>Career Description</h2>
+        <p>Software developers play a crucial role in the development and maintenance of software applications and systems. They are responsible for designing, implementing, and testing software solutions that meet organizational needs. Software developers work across various industries, from finance to healthcare, creating user-friendly interfaces and efficient algorithms. They collaborate closely with stakeholders, including project managers and quality assurance teams, to ensure software projects are delivered on time and within budget. To become a software developer, individuals typically pursue a bachelor's degree in Computer Science or a related field. Proficiency in programming languages such as Java, Python, or C++ is essential. Strong problem-solving skills and the ability to think critically are also necessary to address complex technical challenges. Software developers often work in agile environments, where they iteratively develop and improve software based on user feedback and changing requirements. The demand for software developers continues to grow as industries increasingly rely on technology to streamline operations and enhance customer experiences. With a projected growth rate of 10% in the upcoming years, software developers can expect ample opportunities in both established companies and startups.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+

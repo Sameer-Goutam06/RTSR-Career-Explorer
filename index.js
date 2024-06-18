@@ -66,7 +66,7 @@ app.get("/",(req,res)=>
 
 //careers route
 app.get("/careers",(req,res)=>{
-    res.render("careers.ejs",{port});
+    res.render("industries.ejs",{port});
 });
 
 //Assessment Route
