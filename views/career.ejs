@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CareerXplorer:<%= career.cname %></title>
+  <title>CareerXplorer: <%= data.cname %></title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -92,27 +92,27 @@
             <span class="C">Career</span><span class="X">Xplorer</span>
         </div>
         <div class="title">
-            <h1><%=career.cname%></h1>
+            <h1><%=data.cname%></h1>
         </div>
     </div>
     <div class="content">
         <div class="section requirements">
             <h2>Requirements</h2>
-            <h4><%= career.crequirements %></h4>
+            <h4><%= data.crequirements %></h4>
         </div>
         <div class="section industries">
             <h2>Industries</h2>
-            <h4><%= cin %></h4>
+            <h4><%= data.cindustry.join(", ") %></h4>
         </div>
         <div class="section income">
             <h2>Salary</h2>
-            <h4>$<%= career.csalary %> per year</h4>
+            <h4>$<%= data.csalary %> per year</h4>
             <h2>Growth Rate</h2>
-            <h4><%= career.cgrowthrate %></h4>
+            <h4><%= data.cgrowthrate %></h4>
         </div>
         <div class="section desc">
             <h2>Career Description</h2>
-            <p><%= career.cdesc %></p>
+            <p><%= data.cdesc %></p>
         </div>
     </div>
   </div>

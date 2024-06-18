@@ -5,18 +5,28 @@ const path= require('path');
 const port=8080;
 
 //we need to create a folder nameed public to serve static files such as html,css,ejs..
-app.use(express.static(path.join(__dirname,"/public/CSS")));
-app.use(express.static(path.join(__dirname,"/public/JS")));
+app.use(express.static(path.join(__dirname,"../public/CSS")));
+app.use(express.static(path.join(__dirname,"../public/JS")));
 
 //using of ejs which is already installed in express folder hence we need to use it using app.set()
 //view => templates
 app.set("view engine", "ejs");
 
 //setting path to run server globally and to avoid views loading from root directory when it is located in a leaf directory
-app.set("views",path.join(__dirname,"/views"));
+app.set("views",path.join(__dirname,"../views"));
 
 //to get the data from the post method
+//app.use(bodyParser.urlencoded({ extended: true }));
+
 app.use(express.urlencoded({extended:true}));
+
+//importing routes 
+// const careerRoutes = require('./routes/careerRoutes');
+// const profileRoutes = require('./routes/profileRoutes');
+
+// // Use routes
+// app.use('/careers', careerRoutes);
+// app.use('/profile', profileRoutes);
 
 //importing mongoose
 const mongoose = require('mongoose');
@@ -64,7 +74,7 @@ app.listen(port,()=>{
 //home route
 app.get("/",(req,res)=>
 {
-    res.render("home.ejs",{port});
+    res.render("home.ejs",{logged:false,uname:undefined});
 });
 
 //careers route
@@ -73,7 +83,7 @@ app.get("/careers",(req,res)=>{
 });
 
 //Careers route
-app.get("/c/:industry",(req,res)=>{
+app.get("/industry/:industry",(req,res)=>{
     Career.find({cindustry:req.params.industry})
     .then((careers)=>
     {
@@ -83,11 +93,11 @@ app.get("/c/:industry",(req,res)=>{
 });
 
 // individual career route
-app.get("/ca/:career",(req,res)=>{
-    Career.findOne({cname:req.params.career})
+app.get("/career/:career",(req,res)=>{
+    Career.find({cname:req.params.career})
     .then((results)=>
     {
-        res.render("career.ejs",{career:results[0],cin:results[0].cindustry.join(", ")});
+        res.render("career.ejs",{data:results[0]});
     })
     .catch((err)=>
     {
@@ -103,37 +113,67 @@ app.get("/login",(req,res)=>{
 //Login Route post request to get data and check if user exists
 app.post("/login",(req,res)=>
 {
-    let username,password=req.body;
+    let {username,password}=req.body;
     console.log(username,password);
-    let check=User.findOne({cname:username})
-    .then((res)=>
+    User.findOne({cname:username})
+    .then((user)=>
     {
-        if (res.password!==password)
+        if(!user)
         {
-            res.render("error.ejs",{data:"Passwords doesnt match"});
+            return res.render("error.ejs",{data:"User doesn't exist"});
         }
-        else
+        if (user.password!==password)
         {
-            res.redirect("home.ejs");
+            return res.render("error.ejs",{data:"Passwords doesnt match"});
         }
+        res.render("home.ejs",{logged:true,uname:username});
     })
-    .catch((err)=>{res.render("error.ejs",{data:"User doesn't exist"})});
+    .catch((err)=>
+    {
+        res.render("error.ejs",{data:err});
+    });
 });
 
 //registration route
 app.get("/register",(req,res)=>{
-    res.render("register.ejs",{port});
+    res.render("register.ejs",{logged:false});
 });
 
 //registration route to check if user exists before
 app.post("/register",(req,res)=>
 {
-    let {username,email,password,confirmPassword}=req.body;
-    if (password !== confirmPassword) {
+    let {username,mail,pass,confirmPass}=req.body;
+    if (pass !== confirmPass) {
         return res.render('error.ejs', { data: 'Passwords do not match' });
     }
-    else
-    {
+    User.findOne({name:username})
+    .then((user)=>{
+        if(user)
+        {
+            return res.render("error.ejs",{data:"User already exists"});
+        }
+        const newUser = new User({ name: username, email: mail, password: pass });
+        return newUser.save();
+    }).then(()=>{
+        res.render("login.ejs",{logged:false})
+    })
+    .catch((err)=>{
+        console.log(err);
+    });
+});
 
-    }
+//profile route
+app.get("/profile/:user",(req,res)=>{
+    let uname=req.params.user;
+    User.findOne({name:uname})
+    .then((results)=>{
+        res.render("profile.ejs",{user:results});
+    })
+    .catch((err)=>{
+        res.render("error.ejs",{data:err});
+    });
+});
+
+app.get("/logout",(req,res)=>{
+    res.render("home.ejs",{logged:false,uname:undefined});
 });

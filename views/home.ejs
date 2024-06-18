@@ -198,8 +198,13 @@
                 <div class="options">
                     <button><a href="/careers"><i class="ri-compass-discover-fill"></i>&nbsp;Careers</a></button>
                     <button><a href="/assessment"><img src="https://cdn-icons-png.flaticon.com/512/11924/11924840.png" alt="">Assessment</a></button>
-                    <button><a href="/login"><i class="ri-login-box-line"></i>Login</a></button>
-                    <button><a href="/register"><i class="ri-user-add-fill"></i>Register</a></button>
+                    <% if (logged===false) { %>
+                        <button><a href="/login"><i class="ri-login-box-line"></i>Login</a></button>
+                        <button><a href="/register"><i class="ri-user-add-fill"></i>Register</a></button>
+                    <% } else { %>
+                        <button><a href="/profile/<%=uname%>">Profile</a></button>
+                        <button><a href="/logout">Logout</a></button>
+                     <%}%>
                 </div>
             </div>
             <div class="header">
@@ -221,7 +226,9 @@
 
         <div class="page4"></div>
         <!-- testimonials -->
-        <div class="page5"></div>
+        <div class="page5">
+            
+        </div>
         <div class="footer"></div>
     </div>
 </body>
