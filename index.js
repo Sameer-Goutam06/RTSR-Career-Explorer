@@ -74,10 +74,27 @@ app.get("/careers",(req,res)=>{
 
 //Careers route
 app.get("/c/:industry",(req,res)=>{
-    let results=
-    res.render("careers.ejs",{results});
+    Career.find({cindustry:req.params.industry})
+    .then((careers)=>
+    {
+        res.render("careers.ejs",{careers:careers,ind:req.params.industry});
+    })
+    .catch((err)=>{res.render("error.ejs",{data:err})});;
 });
 
+// individual career route
+app.get("/ca/:career",(req,res)=>{
+    Career.findOne({cname:req.params.career})
+    .then((results)=>
+    {
+        res.render("career.ejs",{career:results[0],cin:results[0].cindustry.join(", ")});
+    })
+    .catch((err)=>
+    {
+        console.log(err);
+        res.render("error.ejs",{data:err});
+    });
+});
 //Login Route get request
 app.get("/login",(req,res)=>{
     res.render("login.ejs",{port});
@@ -97,7 +114,7 @@ app.post("/login",(req,res)=>
         }
         else
         {
-            res.redirect("home.ejs",{state:"unlogged"});
+            res.redirect("home.ejs");
         }
     })
     .catch((err)=>{res.render("error.ejs",{data:"User doesn't exist"})});

@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareeerXplorer-Careers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers in Sector</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Career card styles */
+    .career-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .career {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .career:hover {
+      transform: translateY(-5px);
+    }
+
+    .career h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .career p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .career a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .career a:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
 </head>
 <body>
-    
+  <h1>Careers in <%=careers[0].cindustry.join(", ")%></h1> 
+  <!-- Container for career cards -->
+  <div class="career-container">
+    <% careers.forEach(career => { %>
+      <div class="career">
+        <h2><%= career.cname %></h2>
+        <p><%= career.crequirements %></p>
+        <a href="/ca/<%=career.cname%>">View Details</a>
+      </div>
+    <% }) %>
+  </div>
 </body>
 </html>
