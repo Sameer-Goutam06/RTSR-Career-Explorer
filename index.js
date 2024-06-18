@@ -53,6 +53,9 @@ const careerSchema=new mongoose.Schema({
 //creating model for user collection
 const User=mongoose.model("User",userSchema);
 
+//Creating model for Career collection
+const Career=mongoose.model("Career",careerSchema);
+
 //port:8080
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
@@ -69,9 +72,10 @@ app.get("/careers",(req,res)=>{
     res.render("industries.ejs",{port});
 });
 
-//Assessment Route
-app.get("/assessment",(req,res)=>{
-    res.render("assessment.ejs",{port});
+//Careers route
+app.get("/c/:industry",(req,res)=>{
+    let results=
+    res.render("careers.ejs",{results});
 });
 
 //Login Route get request
