@@ -59,7 +59,9 @@ const careerSchema=new mongoose.Schema
     crequirements:String,
     csalary:Number,
     cgrowthrate:Number,
-    cindustry:Array
+    cindustry:Array,
+    cvideo:String,
+    carticle:String
     }
 );
 
