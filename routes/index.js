@@ -51,14 +51,17 @@ const userSchema=new mongoose.Schema
 );
 
 //creating schema for career collection
-const careerSchema=new mongoose.Schema({
+const careerSchema=new mongoose.Schema
+(
+    {
     cname:String,
     cdesc:String,
     crequirements:String,
     csalary:Number,
     cgrowthrate:Number,
     cindustry:Array
-});
+    }
+);
 
 //creating model for user collection
 const User=mongoose.model("User",userSchema);
@@ -68,7 +71,7 @@ const Career=mongoose.model("Career",careerSchema);
 
 //port:8080
 app.listen(port,()=>{
-    console.log(`listening on port ${port}`);
+    console.log(`Web is running on localhost:${port}/`);
 });
 
 //home route
