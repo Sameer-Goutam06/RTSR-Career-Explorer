@@ -108,6 +108,43 @@ app.get("/career/:career",(req,res)=>{
         res.render("error.ejs",{data:err});
     });
 });
+
+//registration route
+app.get("/register",(req,res)=>{
+    res.render("register.ejs",{logged:false});
+});
+
+//registration route to check if user exists before
+app.post("/register",(req,res)=>
+{
+    let {username,email,password,confirmPassword}=req.body;
+    let u={username,email,password};
+    console.log(req.body);
+    if (password !== confirmPassword) {
+        return res.render('error.ejs', { data: 'Passwords do not match' });
+    }
+    User.findOne({name:u.username})
+    .then((user)=>{
+        if(user)
+        {
+            return res.render("error.ejs",{data:"User already exists"});
+        }
+        User.insertMany([{name:u.username,email:u.email,password:u.password}])
+        .then((output)=>
+        {
+            console.log(u);
+        })
+        .catch((e)=>{
+            console.log(e);
+        });
+    }).then(()=>{
+        res.render("login.ejs",{logged:false})
+    })
+    .catch((err)=>{
+        console.log(err);
+    });
+});
+
 //Login Route get request
 app.get("/login",(req,res)=>{
     res.render("login.ejs",{port});
@@ -118,7 +155,7 @@ app.post("/login",(req,res)=>
 {
     let {username,password}=req.body;
     console.log(username,password);
-    User.findOne({cname:username})
+    User.findOne({name:username})
     .then((user)=>
     {
         if(!user)
@@ -127,7 +164,7 @@ app.post("/login",(req,res)=>
         }
         if (user.password!==password)
         {
-            return res.render("error.ejs",{data:"Passwords doesnt match"});
+            return res.render("error.ejs",{data:"Passwords doesn't match"});
         }
         res.render("home.ejs",{logged:true,uname:username});
     })
@@ -137,37 +174,9 @@ app.post("/login",(req,res)=>
     });
 });
 
-//registration route
-app.get("/register",(req,res)=>{
-    res.render("register.ejs",{logged:false});
-});
-
-//registration route to check if user exists before
-app.post("/register",(req,res)=>
-{
-    let {username,mail,pass,confirmPass}=req.body;
-    if (pass !== confirmPass) {
-        return res.render('error.ejs', { data: 'Passwords do not match' });
-    }
-    User.findOne({name:username})
-    .then((user)=>{
-        if(user)
-        {
-            return res.render("error.ejs",{data:"User already exists"});
-        }
-        const newUser = new User({ name: username, email: mail, password: pass });
-        return newUser.save();
-    }).then(()=>{
-        res.render("login.ejs",{logged:false})
-    })
-    .catch((err)=>{
-        console.log(err);
-    });
-});
-
 //profile route
 app.get("/profile/:user",(req,res)=>{
-    let uname=req.params.user;
+    let {uname}=req.params.user;
     User.findOne({name:uname})
     .then((results)=>{
         res.render("profile.ejs",{user:results});

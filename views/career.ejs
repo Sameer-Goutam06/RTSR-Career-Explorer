@@ -114,6 +114,13 @@
             <h2>Career Description</h2>
             <p><%= data.cdesc %></p>
         </div>
+        <% if ( data.cvideo!=="" && data.carticle!=="" ) { %>
+          <div class="section references">
+            <h2>References</h2>
+            <button><a href="<%= cvideo %>">Video</a></button>
+            <button><a href="<%= carticle %>">Article</a></button>
+          </div>
+        <% } %>
     </div>
   </div>
 </body>

@@ -229,8 +229,8 @@
                         <button onclick="window.location.href='/login'"><a href="/login"><i class="ri-login-box-line"></i>Login</a></button>
                         <button onclick="window.location.href='/register'"><a href="/register"><i class="ri-user-add-fill"></i>Register</a></button>
                     <% } else { %>
-                        <button><a href="/profile/<%=uname%>"><i class="ri-user-fill"></i>Profile</a></button>
-                        <button><a href="/logout"><i class="ri-logout-box-fill"></i>Logout</a></button>
+                        <button onclick="window.location.href='/profile/<%=uname%>'"><a href="/profile/<%=uname%>"><i class="ri-user-fill"></i>Profile</a></button>
+                        <button onclick="window.location.href='/logout'"><a href="/logout"><i class="ri-logout-box-fill"></i>Logout</a></button>
                      <%}%>
                 </div>
             </div>
