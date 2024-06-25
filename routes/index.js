@@ -46,7 +46,15 @@ const userSchema=new mongoose.Schema
     {
         name:String,
         email:String,
-        password:String
+        password:String,
+        schooling:String,
+        college:String,
+        graduation:String,
+        post_graduation:String,
+        skills:[String],
+        age:Number,
+        hobbies:[String],
+        gender:String
     }
 );
 
@@ -79,7 +87,7 @@ app.listen(port,()=>{
 //home route
 app.get("/",(req,res)=>
 {
-    res.render("home.ejs",{logged:false,uname:undefined});
+    res.render("home.ejs",{logged:false,umail:undefined});
 });
 
 //careers route
@@ -111,6 +119,7 @@ app.get("/career/:career",(req,res)=>{
     });
 });
 
+//session method to pass data between pages
 //registration route
 app.get("/register",(req,res)=>{
     res.render("register.ejs",{logged:false});
@@ -131,61 +140,77 @@ app.post("/register",(req,res)=>
         {
             return res.render("error.ejs",{data:"User already exists"});
         }
-        User.insertMany([{name:u.username,email:u.email,password:u.password}])
-        .then((output)=>
-        {
-            console.log(u);
-        })
-        .catch((e)=>{
-            console.log(e);
-        });
-    }).then(()=>{
-        res.render("login.ejs",{logged:false})
+        res.render("information.ejs",{u});
     })
     .catch((err)=>{
         console.log(err);
     });
 });
-
-//Login Route get request
-app.get("/login",(req,res)=>{
-    res.render("login.ejs",{port});
-});
-
-//Login Route post request to get data and check if user exists
-app.post("/login",(req,res)=>
-{
-    let {username,password}=req.body;
-    console.log(username,password);
-    User.findOne({name:username})
-    .then((user)=>
+app.post("/register/information",(req,res)=>{
+    let {username,email,password,schoolGrade,collegeYear,graduationCourse,postGradCourse,skills,hobbies,age,gender}=req.body;
+    let new_user={
+        name:username,
+        email:email,
+        password:password,
+        schooling:schoolGrade,
+        college:collegeYear,
+        graduation:graduationCourse,
+        post_graduation:postGradCourse,
+        skills:skills.split(","),
+        hobbies:hobbies.split(","),
+        age:age,
+        gender:gender
+        };
+    User.insertMany([new_user])
+    .then((result)=>
     {
-        if(!user)
-        {
-            return res.render("error.ejs",{data:"User doesn't exist"});
-        }
-        if (user.password!==password)
-        {
-            return res.render("error.ejs",{data:"Passwords doesn't match"});
-        }
-        res.render("home.ejs",{logged:true,uname:username});
+        console.log(new_user);
+        res.redirect("/login");
     })
-    .catch((err)=>
-    {
-        res.render("error.ejs",{data:err});
+    .catch((e)=>{
+        console.log(e);
     });
 });
 
-//profile route
-app.get("/profile/:user",(req,res)=>{
-    let {uname}=req.params.user;
-    User.findOne({name:uname})
-    .then((results)=>{
-        res.render("profile.ejs",{user:results});
-    })
-    .catch((err)=>{
-        res.render("error.ejs",{data:err});
-    });
+// Login Route - GET request to render login form
+app.get("/login", (req, res) => {
+    res.render("login.ejs");
+});
+
+// Login Route - POST request to process login credentials
+app.post("/login", (req, res) => {
+    const {mail,password} = req.body;
+    console.log(mail,"  ", password);
+    User.findOne({email:mail})
+        .then((user) => {
+            if (!user) {
+                return res.render("error.ejs", { data: "User doesn't exist" });
+            }
+            if (user.password !== password) {
+                return res.render("error.ejs", { data: "Passwords don't match" });
+            }
+            res.render("home.ejs", { logged: true, umail: mail });
+        })
+        .catch((err) => {
+            res.render("error.ejs", { data: err });
+        });
+});
+
+
+// Profile Route - GET request to render user profile
+app.get("/profile/:umail", (req, res) => {
+    const { umail } = req.params;
+    User.findOne({ email: umail })
+        .then((user) => {
+            if (!user) {
+                return res.render("error.ejs", { data: "User not found" });
+            }
+            console.log(user);
+            res.render("profile.ejs", { user: user });
+        })
+        .catch((err) => {
+            res.render("error.ejs", { data: err });
+        });
 });
 
 app.get("/logout",(req,res)=>{

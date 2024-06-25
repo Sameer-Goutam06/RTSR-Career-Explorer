@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerXplorer-Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body
+        {
+            background-color: #dad4d4;
+        }
+        .header {
+            height: 12vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 2rem;
+            background-color: #0f52ba;
+            color: white;
+        }
+        .logo-main {
+        display: flex;
+        align-items: center;
+        background-color: #dad4d4;
+        height: 100%;
+        width: 25%;
+        border-radius: 50%;
+        justify-content: center;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 2.4vmax;
+        font-weight: 600;
+        padding-bottom: 0%;
+        }
+        .logo-main .C {
+        color: #0f52ba;
+        }
+        .logo-main .X {
+        color: #91c11b;
+        }
+        .title h1 {
+        font-size: 1.8rem;
+        margin: 0;
+        }
+        label
+        {
+            font-size: 1.2vmax;
+        }
+        h2{
+            padding:2vmin;
+        }
+        .container
+        {
+            margin-bottom: 2vmax;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-main">
+            <span class="C">Career</span><span class="X">Xplorer</span>
+        </div>
+        <div class="title">
+            <h1>Personal Infromation form</h1>
+        </div>
+    </div>
+    <center><h2>Hello <%= u.username %></h2></center>
+    <div class="container mt-5">
+        <form action="/register/information" method="POST">
+            <div class="form-group">
+                <input type="text" name="username" value="<%= u.username %>" style="display: none;">
+                <input type="email" name="email" value="<%= u.email %>" style="display: none;">
+                <input type="password" name="password" value="<%= u.password %>" style="display:none;">
+                <label for="schoolGrade">School Grade</label>
+                <select class="form-control" id="schoolGrade" name="schoolGrade">
+                    <option value="none">None</option>
+                    <option value="Grade_1">Grade 1</option>
+                    <option value="Grade_2">Grade 2</option>
+                    <option value="Grade_3">Grade 3</option>
+                    <option value="Grade_4">Grade 4</option>
+                    <option value="Grade_5">Grade 5</option>
+                    <option value="Grade_6">Grade 6</option>
+                    <option value="Grade_7">Grade 7</option>
+                    <option value="Grade_8">Grade 8</option>
+                    <option value="Grade_9">Grade 9</option>
+                    <option value="Grade_10">Grade 10</option>
+                    <option value="Grade_11">Grade 11</option>
+                    <option value="Grade_12">Grade 12</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="collegeYear">College</label>
+                <select class="form-control" id="collegeYear" name="collegeYear">
+                    <option value="none">None</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Polytechnic">Polytechnic</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="graduationCourse">Under Graduation</label>
+                <select class="form-control" id="graduationCourse" name="graduationCourse">
+                    <option value="none">None</option>
+                    <option value="Bachelor_of_Arts_(BA)">Bachelor of Arts (BA)</option>
+                    <option value="Bachelor_of_Science_(BSc)">Bachelor of Science (BSc)</option>
+                    <option value="Bachelor_of_Commerce_(BCom)">Bachelor of Commerce (BCom)</option>
+                    <option value="Bachelor_of_Engineering_(BE)">Bachelor of Engineering (BE)</option>
+                    <option value="Bachelor_of_Technology_(BTech)">Bachelor of Technology (BTech)</option>
+                    <option value="Bachelor_of_Business_Administration_(BBA)">Bachelor of Business Administration (BBA)</option>
+                    <option value="Bachelor_of_Computer_Applications_(BCA)">Bachelor of Computer Applications (BCA)</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="postGradCourse">Post-Graduation</label>
+                <select class="form-control" id="postGradCourse" name="postGradCourse">
+                    <option value="none">None</option>
+                    <option value="Master_of_Arts_(MA)">Master of Arts (MA)</option>
+                    <option value="Master_of_Science_(MSc)">Master of Science (MSc)</option>
+                    <option value="Master_of_Commerce_(MCom)">Master of Commerce (MCom)</option>
+                    <option value="Master_of_Engineering_(ME)">Master of Engineering (ME)</option>
+                    <option value="Master_of_Technology_(MTech)">Master of Technology (MTech)</option>
+                    <option value="Master_of_Business_Administration_(MBA)">Master of Business Administration (MBA)</option>
+                    <option value="Master_of_Computer_Applications_(MCA)">Master of Computer Applications (MCA)</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="skills">Skills</label>
+                <input type="text" class="form-control" id="skills" name="skills" placeholder="Enter your skills">
+            </div>
+
+            <div class="form-group">
+                <label for="hobbies">Hobbies</label>
+                <input type="text" class="form-control" id="hobbies" name="hobbies" placeholder="Enter your hobbies">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" name="age" placeholder="Enter your age">
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender" name="gender">
+                    <option value="MALE">Male</option>
+                    <option value="FEMALE">Female</option>
+                    <option value="other">Other</option>
+                    <option value="prefer_Not_To_Say">Prefer not to say</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

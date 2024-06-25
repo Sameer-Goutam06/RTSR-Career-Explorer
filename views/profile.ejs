@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .profile-header {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .profile-header h1 {
+            font-size: 3rem;
+            color: #0f52ba;
+        }
+        .profile-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-section {
+            margin-bottom: 2rem;
+        }
+        .profile-section h2 {
+            font-size: 1.5rem;
+            color: #0f52ba;
+            margin-bottom: 1rem;
+        }
+        .profile-section p {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .skills, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill, .hobby {
+            background: #0f52ba;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0.5rem;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .profile-container {
+                padding: 1rem;
+            }
+            .profile-header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+
+<div class="profile-header">
+    <h1>Welcome, <%= user.name %></h1>
+</div>
+
+<div class="profile-container">
+    <div class="profile-section">
+        <h2>Personal Information</h2>
+        <p><strong>Email:</strong> <%= user.email %></p>
+        <p><strong>Age:</strong> <%= user.age %></p>
+        <p><strong>Gender:</strong> <%= user.gender %></p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Education Qualifications</h2>
+        <p><strong>School Grade:</strong> <%= user.schooling.replaceAll("_"," ")  %></p>
+        <p><strong>College:</strong> <%= user.college.replaceAll("_"," ")  %></p>
+        <p><strong>Graduation:</strong> <%= user.graduation.replaceAll("_"," ")  %></p>
+        <p><strong>Post-Graduation:</strong> <%= user.post_graduation.replaceAll("_"," ") %></p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <% user.skills.forEach(skill => { %>
+                <div class="skill"><%= skill %></div>
+            <% }) %>
+        </div>
+    </div>
+
+    <div class="profile-section">
+        <h2>Hobbies</h2>
+        <div class="hobbies">
+            <% user.hobbies.forEach(hobby => { %>
+                <div class="hobby"><%= hobby %></div>
+            <% }) %>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
