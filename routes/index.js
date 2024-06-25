@@ -73,7 +73,7 @@ const Career=mongoose.model("Career",careerSchema);
 
 //port:8080
 app.listen(port,()=>{
-    console.log(`Web is running on localhost:${port}/`);
+    console.log(`Web is running on localhost:${port}`);
 });
 
 //home route
