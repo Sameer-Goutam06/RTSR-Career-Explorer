@@ -83,6 +83,26 @@
     .section h4 {
       margin: 0.5rem 0;
     }
+    .references
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap:2vmin;
+      height:15vh;
+      padding-bottom:2vmin;
+    }
+    .references a
+    {
+      text-decoration: none;
+      color:white;
+      font-weight: 500;
+      font-family: Raleway;
+      background-color: #0f52ba;
+      width:fit-content;
+      padding: 1vmin;
+      border-radius:8px;
+    }
   </style>
 </head>
 <body>
@@ -117,8 +137,8 @@
         <% if ( data.cvideo!=="" && data.carticle!=="" ) { %>
           <div class="section references">
             <h2>References</h2>
-            <button><a href="<%= cvideo %>">Video</a></button>
-            <button><a href="<%= carticle %>">Article</a></button>
+            <a href="<%- data.cvideo %>">Video</a>
+            <a href="<%- data.carticle %>">Article</a>
           </div>
         <% } %>
     </div>
