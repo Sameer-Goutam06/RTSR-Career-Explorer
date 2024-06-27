@@ -18,3 +18,5 @@ const careerSchema=new mongoose.Schema({
     cgrowthrate:Number,
     cindustry:Array
 });
+
+export default careerSchema;
