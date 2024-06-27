@@ -28,6 +28,8 @@ app.use(express.urlencoded({extended:true}));
 // app.use('/careers', careerRoutes);
 // app.use('/profile', profileRoutes);
 
+import userSchema from './models/User';
+import careerSchema from './models/Career';
 //importing mongoose
 const mongoose = require('mongoose');
 main()

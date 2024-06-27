@@ -15,7 +15,15 @@ const userSchema=new mongoose.Schema
     {
         name:String,
         email:String,
-        password:String
+        password:String,
+        schooling:String,
+        college:String,
+        graduation:String,
+        post_graduation:String,
+        skills:[String],
+        age:Number,
+        hobbies:[String],
+        gender:String
     }
 );
 

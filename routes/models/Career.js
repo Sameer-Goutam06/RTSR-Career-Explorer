@@ -10,13 +10,18 @@ async function main(){
     await mongoose.connect('mongodb://127.0.0.1:27017/RTSR');
 }
 //creating schema for career collection
-const careerSchema=new mongoose.Schema({
+//creating schema for career collection
+const careerSchema=new mongoose.Schema
+(
+    {
     cname:String,
     cdesc:String,
     crequirements:String,
     csalary:Number,
     cgrowthrate:Number,
-    cindustry:Array
-});
-
+    cindustry:Array,
+    cvideo:String,
+    carticle:String
+    }
+);
 export default careerSchema;
