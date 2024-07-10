@@ -28,10 +28,11 @@ app.use(express.urlencoded({extended:true}));
 // app.use('/careers', careerRoutes);
 // app.use('/profile', profileRoutes);
 
-import userSchema from './models/User';
-import careerSchema from './models/Career';
+
 //importing mongoose
 const mongoose = require('mongoose');
+const Schema=mongoose.Schema;
+
 main()
     .then(() => {
         console.log("connected to database");
@@ -42,44 +43,12 @@ main()
 async function main(){
     await mongoose.connect('mongodb://127.0.0.1:27017/RTSR');
 }
-//creating schema for user collection
-const userSchema=new mongoose.Schema
-(
-    {
-        name:String,
-        email:String,
-        password:String,
-        schooling:String,
-        college:String,
-        graduation:String,
-        post_graduation:String,
-        skills:[String],
-        age:Number,
-        hobbies:[String],
-        gender:String
-    }
-);
-
-//creating schema for career collection
-const careerSchema=new mongoose.Schema
-(
-    {
-    cname:String,
-    cdesc:String,
-    crequirements:String,
-    csalary:Number,
-    cgrowthrate:Number,
-    cindustry:Array,
-    cvideo:String,
-    carticle:String
-    }
-);
 
 //creating model for user collection
-const User=mongoose.model("User",userSchema);
+const User=require('./models/User.js');
 
 //Creating model for Career collection
-const Career=mongoose.model("Career",careerSchema);
+const Career=require('./models/Career.js');
 
 //port:8080
 app.listen(port,()=>{
@@ -147,6 +116,9 @@ app.post("/register",(req,res)=>
     .catch((err)=>{
         console.log(err);
     });
+});
+app.get("/assessment",(req,res)=>{
+    res.render("assessment.ejs");
 });
 app.post("/register/information",(req,res)=>{
     let {username,email,password,schoolGrade,collegeYear,graduationCourse,postGradCourse,skills,hobbies,age,gender}=req.body;

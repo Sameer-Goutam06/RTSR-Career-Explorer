@@ -1,15 +1,6 @@
 const mongoose = require('mongoose');
-main()
-    .then(() => {
-        console.log("User schema connected");
-    })
-    .catch((err) => {
-        console.log(err);
-    });
-async function main(){
-    await mongoose.connect('mongodb://127.0.0.1:27017/RTSR');
-}
-//creating schema for user collection
+const Schema=mongoose.Schema;
+// //creating schema for user collection
 const userSchema=new mongoose.Schema
 (
     {
@@ -27,4 +18,5 @@ const userSchema=new mongoose.Schema
     }
 );
 
-export default userSchema;
+const User=mongoose.model("User",userSchema);
+module.exports=User;

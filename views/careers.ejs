@@ -83,16 +83,24 @@
     </style>
 </head>
 <body>
-    <h1>Careers in <%=careers[0].cindustry.join(", ")%></h1> 
+    <% if (careers && careers.length > 0) { %>
+        <h1>Careers in <%= careers[0].cindustry.filter((el) => el.length > 1).join(", ") %></h1>
+    <% } else { %>
+        <h1>No Career Information Available</h1>
+    <% } %>
     <!-- Container for career cards -->
     <div class="career-container">
-        <% careers.forEach(career => { %>
-        <div class="career">
-            <h2><%= career.cname %></h2>
-            <p><%= career.crequirements %></p>
-            <a href="/career/<%=career.cname%>">View Details</a>
-        </div>
-        <% }) %>
+        <% if (careers && careers.length > 0) { %>
+            <% careers.forEach(career => { %>
+                <div class="career">
+                    <h2><%= career.cname %></h2>
+                    <p><%= career.crequirements %></p>
+                    <a href="/career/<%= career.cname %>">View Details</a>
+                </div>
+            <% }) %>
+        <% } else { %>
+            <p>No careers available to display.</p>
+        <% } %>
     </div>
 </body>
 </html>

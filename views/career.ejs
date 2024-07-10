@@ -122,7 +122,7 @@
         </div>
         <div class="section industries">
             <h2>Industries</h2>
-            <h4><%= data.cindustry.join(", ") %></h4>
+            <h4><%= data.cindustry.filter((el) => el.length > 1).join(", ") %></h4>
         </div>
         <div class="section income">
             <h2>Salary</h2>
